@@ -1,0 +1,1526 @@
+﻿Log file open, 09/28/22 20:59:36
+LogInit: Display: Running engine for game: HorseGame
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 47 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 1.546408
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -4:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CameraShakePreviewer
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin PlasticSourceControl
+LogPluginManager: Mounting plugin RiderSourceCodeAccess
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin CurveEditorTools
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin EditorScriptingUtilities
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin GeometryMode
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AutomationUtils
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin ChaosCloth
+LogPluginManager: Mounting plugin ChaosClothEditor
+LogPluginManager: Mounting plugin ChaosEditor
+LogPluginManager: Mounting plugin ChaosNiagara
+LogPluginManager: Mounting plugin ChaosSolverPlugin
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin GeometryCollectionPlugin
+LogPluginManager: Mounting plugin GeometryProcessing
+LogPluginManager: Mounting plugin PlanarCut
+LogPluginManager: Mounting plugin PlatformCrypto
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin RawInput
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin Niagara
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapLightEstimation
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin MagicLeapPassableWorld
+LogPluginManager: Mounting plugin MLSDK
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin MeshPainting
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin MovieRenderPipeline
+LogPluginManager: Mounting plugin TemplateSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AssetTags
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin GooglePAD
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin PostSplashScreen
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SoundFields
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin Synthesis
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin ScreenshotTools
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogOnline: OSS: Creating online subsystem instance for: NULL
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+LogOculusPluginWrapper: OculusPlugin initialized successfully
+LogHMD: Failed initializing OVRPlugin 1.44.0
+LogInit: Build: ++UE4+Release-4.25-CL-14469661
+LogInit: Engine Version: 4.25.4-14469661+++UE4+Release-4.25
+LogInit: Compatible Engine Version: 4.25.0-13144385+++UE4+Release-4.25
+LogInit: Net CL: 13144385
+LogInit: OS: Windows 10 (Release 2009) (), CPU: AMD Ryzen 7 1800X Eight-Core Processor         , GPU: NVIDIA GeForce GTX 960
+LogInit: Compiled (64-bit): Oct 11 2020 08:10:49
+LogInit: Compiled with Visual C++: 19.24.28315.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.25
+LogInit: Command Line: 
+LogInit: Base Directory: D:/Unreal/UE_4.25/Engine/Binaries/Win64/
+LogInit: Allocator: TBB
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 26
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 4
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 38
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 37
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 4
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 43
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 12
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 3
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 7
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 31
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 10
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 10
+LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 37
+LogDevObjectVersion:   Dev-PhysicsMaterial-Chaos (B68FC16E-8B1B-42E2-B453-215C058844FE): 1
+LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+LogInit: Presizing for max 25165824 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/spard/Documents/GitHub/CarGame/CarGateGame01/CarGateGame/Saved/Config/Windows/Engine.ini]
+LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2022.09.28-23.59.43:706][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2022.09.28-23.59.43:706][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2022.09.28-23.59.43:706][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/spard/Documents/GitHub/CarGame/CarGateGame01/CarGateGame/Saved/Config/Windows/Engine.ini]
+[2022.09.28-23.59.43:706][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2022.09.28-23.59.43:706][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/spard/Documents/GitHub/CarGame/CarGateGame01/CarGateGame/Saved/Config/Windows/Engine.ini]
+[2022.09.28-23.59.43:706][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/spard/Documents/GitHub/CarGame/CarGateGame01/CarGateGame/Saved/Config/Windows/Engine.ini]
+[2022.09.28-23.59.43:706][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2022.09.28-23.59.43:706][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2022.09.28-23.59.43:707][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2022.09.28-23.59.43:707][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2022.09.28-23.59.43:707][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2022.09.28-23.59.43:707][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2022.09.28-23.59.43:707][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2022.09.28-23.59.43:707][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2022.09.28-23.59.43:707][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2022.09.28-23.59.43:707][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2022.09.28-23.59.43:707][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2022.09.28-23.59.43:707][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2022.09.28-23.59.43:707][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2022.09.28-23.59.43:707][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2022.09.28-23.59.43:707][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/spard/Documents/GitHub/CarGame/CarGateGame01/CarGateGame/Saved/Config/Windows/Engine.ini]
+[2022.09.28-23.59.43:707][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2022.09.28-23.59.43:707][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2022.09.28-23.59.43:707][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2022.09.28-23.59.43:707][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2022.09.28-23.59.43:707][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2022.09.28-23.59.43:707][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2022.09.28-23.59.43:707][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2022.09.28-23.59.43:707][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2022.09.28-23.59.43:707][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2022.09.28-23.59.43:707][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2022.09.28-23.59.43:707][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2022.09.28-23.59.43:707][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2022.09.28-23.59.43:707][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2022.09.28-23.59.43:707][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/spard/Documents/GitHub/CarGame/CarGateGame01/CarGateGame/Saved/Config/Windows/Engine.ini]
+[2022.09.28-23.59.43:707][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/spard/Documents/GitHub/CarGame/CarGateGame01/CarGateGame/Saved/Config/Windows/Engine.ini]
+[2022.09.28-23.59.43:743][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/spard/Documents/GitHub/CarGame/CarGateGame01/CarGateGame/Saved/Config/Windows/Scalability.ini]
+[2022.09.28-23.59.43:743][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2022.09.28-23.59.43:743][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2022.09.28-23.59.43:743][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/spard/Documents/GitHub/CarGame/CarGateGame01/CarGateGame/Saved/Config/Windows/Scalability.ini]
+[2022.09.28-23.59.43:743][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2022.09.28-23.59.43:743][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/spard/Documents/GitHub/CarGame/CarGateGame01/CarGateGame/Saved/Config/Windows/Scalability.ini]
+[2022.09.28-23.59.43:743][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2022.09.28-23.59.43:743][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2022.09.28-23.59.43:743][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2022.09.28-23.59.43:743][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2022.09.28-23.59.43:743][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2022.09.28-23.59.43:743][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2022.09.28-23.59.43:743][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2022.09.28-23.59.43:743][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2022.09.28-23.59.43:743][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2022.09.28-23.59.43:743][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2022.09.28-23.59.43:743][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2022.09.28-23.59.43:743][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2022.09.28-23.59.43:743][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2022.09.28-23.59.43:743][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2022.09.28-23.59.43:743][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2022.09.28-23.59.43:743][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2022.09.28-23.59.43:743][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2022.09.28-23.59.43:743][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2022.09.28-23.59.43:743][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/spard/Documents/GitHub/CarGame/CarGateGame01/CarGateGame/Saved/Config/Windows/Scalability.ini]
+[2022.09.28-23.59.43:743][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2022.09.28-23.59.43:743][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2022.09.28-23.59.43:743][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2022.09.28-23.59.43:743][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2022.09.28-23.59.43:743][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2022.09.28-23.59.43:743][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2022.09.28-23.59.43:743][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2022.09.28-23.59.43:743][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2022.09.28-23.59.43:743][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2022.09.28-23.59.43:743][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2022.09.28-23.59.43:743][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2022.09.28-23.59.43:743][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2022.09.28-23.59.43:743][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2022.09.28-23.59.43:743][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2022.09.28-23.59.43:743][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2022.09.28-23.59.43:743][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2022.09.28-23.59.43:743][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2022.09.28-23.59.43:743][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2022.09.28-23.59.43:743][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2022.09.28-23.59.43:743][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2022.09.28-23.59.43:743][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2022.09.28-23.59.43:743][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2022.09.28-23.59.43:743][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2022.09.28-23.59.43:743][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2022.09.28-23.59.43:743][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2022.09.28-23.59.43:743][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2022.09.28-23.59.43:743][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2022.09.28-23.59.43:744][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2022.09.28-23.59.43:744][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2022.09.28-23.59.43:744][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2022.09.28-23.59.43:744][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/spard/Documents/GitHub/CarGame/CarGateGame01/CarGateGame/Saved/Config/Windows/Scalability.ini]
+[2022.09.28-23.59.43:744][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2022.09.28-23.59.43:744][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2022.09.28-23.59.43:744][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2022.09.28-23.59.43:744][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2022.09.28-23.59.43:744][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2022.09.28-23.59.43:744][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2022.09.28-23.59.43:744][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2022.09.28-23.59.43:744][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2022.09.28-23.59.43:744][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2022.09.28-23.59.43:744][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/spard/Documents/GitHub/CarGame/CarGateGame01/CarGateGame/Saved/Config/Windows/Scalability.ini]
+[2022.09.28-23.59.43:744][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2022.09.28-23.59.43:744][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2022.09.28-23.59.43:744][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2022.09.28-23.59.43:744][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2022.09.28-23.59.43:744][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2022.09.28-23.59.43:744][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2022.09.28-23.59.43:744][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2022.09.28-23.59.43:744][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2022.09.28-23.59.43:744][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2022.09.28-23.59.43:744][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2022.09.28-23.59.43:744][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2022.09.28-23.59.43:744][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2022.09.28-23.59.43:744][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2022.09.28-23.59.43:744][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2022.09.28-23.59.43:744][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2022.09.28-23.59.43:744][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2022.09.28-23.59.43:744][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2022.09.28-23.59.43:744][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2022.09.28-23.59.43:744][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2022.09.28-23.59.43:744][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2022.09.28-23.59.43:744][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2022.09.28-23.59.43:744][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2022.09.28-23.59.43:744][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2022.09.28-23.59.43:744][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2022.09.28-23.59.43:744][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2022.09.28-23.59.43:744][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2022.09.28-23.59.43:744][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/spard/Documents/GitHub/CarGame/CarGateGame01/CarGateGame/Saved/Config/Windows/Scalability.ini]
+[2022.09.28-23.59.43:744][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2022.09.28-23.59.43:744][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2022.09.28-23.59.43:744][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/spard/Documents/GitHub/CarGame/CarGateGame01/CarGateGame/Saved/Config/Windows/Scalability.ini]
+[2022.09.28-23.59.43:744][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2022.09.28-23.59.43:744][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2022.09.28-23.59.43:744][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2022.09.28-23.59.43:744][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2022.09.28-23.59.43:744][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2022.09.28-23.59.43:744][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2022.09.28-23.59.43:744][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2022.09.28-23.59.43:744][  0]LogInit: Selected Device Profile: [Windows]
+[2022.09.28-23.59.43:744][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2022.09.28-23.59.43:745][  0]LogHAL: Display: Platform has ~ 8 GB [8520671232 / 8589934592 / 8], which maps to Default [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2022.09.28-23.59.43:745][  0]LogInit: Going up to parent DeviceProfile []
+[2022.09.28-23.59.43:745][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/spard/Documents/GitHub/CarGame/CarGateGame01/CarGateGame/Saved/Config/Windows/Scalability.ini]
+[2022.09.28-23.59.43:745][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2022.09.28-23.59.43:745][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2022.09.28-23.59.43:745][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/spard/Documents/GitHub/CarGame/CarGateGame01/CarGateGame/Saved/Config/Windows/Scalability.ini]
+[2022.09.28-23.59.43:745][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2022.09.28-23.59.43:745][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/spard/Documents/GitHub/CarGame/CarGateGame01/CarGateGame/Saved/Config/Windows/Scalability.ini]
+[2022.09.28-23.59.43:745][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2022.09.28-23.59.43:745][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2022.09.28-23.59.43:745][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2022.09.28-23.59.43:745][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2022.09.28-23.59.43:745][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2022.09.28-23.59.43:745][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2022.09.28-23.59.43:745][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2022.09.28-23.59.43:745][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2022.09.28-23.59.43:745][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2022.09.28-23.59.43:745][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2022.09.28-23.59.43:745][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2022.09.28-23.59.43:745][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2022.09.28-23.59.43:745][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2022.09.28-23.59.43:745][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2022.09.28-23.59.43:745][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2022.09.28-23.59.43:745][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2022.09.28-23.59.43:745][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2022.09.28-23.59.43:745][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2022.09.28-23.59.43:745][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/spard/Documents/GitHub/CarGame/CarGateGame01/CarGateGame/Saved/Config/Windows/Scalability.ini]
+[2022.09.28-23.59.43:745][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2022.09.28-23.59.43:745][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2022.09.28-23.59.43:745][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2022.09.28-23.59.43:745][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2022.09.28-23.59.43:746][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2022.09.28-23.59.43:746][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2022.09.28-23.59.43:746][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2022.09.28-23.59.43:746][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2022.09.28-23.59.43:746][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2022.09.28-23.59.43:746][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2022.09.28-23.59.43:746][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2022.09.28-23.59.43:746][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2022.09.28-23.59.43:746][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2022.09.28-23.59.43:746][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2022.09.28-23.59.43:746][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2022.09.28-23.59.43:746][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2022.09.28-23.59.43:746][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2022.09.28-23.59.43:746][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2022.09.28-23.59.43:746][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2022.09.28-23.59.43:746][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2022.09.28-23.59.43:746][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2022.09.28-23.59.43:746][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2022.09.28-23.59.43:746][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2022.09.28-23.59.43:746][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2022.09.28-23.59.43:746][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2022.09.28-23.59.43:746][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2022.09.28-23.59.43:746][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2022.09.28-23.59.43:746][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2022.09.28-23.59.43:746][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2022.09.28-23.59.43:746][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2022.09.28-23.59.43:746][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/spard/Documents/GitHub/CarGame/CarGateGame01/CarGateGame/Saved/Config/Windows/Scalability.ini]
+[2022.09.28-23.59.43:746][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2022.09.28-23.59.43:746][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2022.09.28-23.59.43:746][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2022.09.28-23.59.43:746][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2022.09.28-23.59.43:746][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2022.09.28-23.59.43:746][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2022.09.28-23.59.43:746][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2022.09.28-23.59.43:746][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2022.09.28-23.59.43:746][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2022.09.28-23.59.43:746][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/spard/Documents/GitHub/CarGame/CarGateGame01/CarGateGame/Saved/Config/Windows/Scalability.ini]
+[2022.09.28-23.59.43:746][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2022.09.28-23.59.43:746][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2022.09.28-23.59.43:746][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2022.09.28-23.59.43:746][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2022.09.28-23.59.43:746][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2022.09.28-23.59.43:746][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2022.09.28-23.59.43:746][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2022.09.28-23.59.43:746][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2022.09.28-23.59.43:746][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2022.09.28-23.59.43:746][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2022.09.28-23.59.43:746][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2022.09.28-23.59.43:746][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2022.09.28-23.59.43:746][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2022.09.28-23.59.43:746][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2022.09.28-23.59.43:746][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2022.09.28-23.59.43:746][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2022.09.28-23.59.43:746][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2022.09.28-23.59.43:746][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2022.09.28-23.59.43:746][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2022.09.28-23.59.43:746][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2022.09.28-23.59.43:746][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2022.09.28-23.59.43:746][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2022.09.28-23.59.43:746][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2022.09.28-23.59.43:746][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2022.09.28-23.59.43:746][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2022.09.28-23.59.43:746][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2022.09.28-23.59.43:746][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/spard/Documents/GitHub/CarGame/CarGateGame01/CarGateGame/Saved/Config/Windows/Scalability.ini]
+[2022.09.28-23.59.43:746][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2022.09.28-23.59.43:746][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2022.09.28-23.59.43:746][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/spard/Documents/GitHub/CarGame/CarGateGame01/CarGateGame/Saved/Config/Windows/Scalability.ini]
+[2022.09.28-23.59.43:746][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2022.09.28-23.59.43:746][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2022.09.28-23.59.43:746][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2022.09.28-23.59.43:746][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2022.09.28-23.59.43:746][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2022.09.28-23.59.43:746][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2022.09.28-23.59.43:746][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2022.09.28-23.59.43:747][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2022.09.28-23.59.43:790][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2022.09.28-23.59.43:790][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2022.09.28-23.59.43:790][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2022.09.28-23.59.43:790][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/spard/Documents/GitHub/CarGame/CarGateGame01/CarGateGame/Saved/Config/Windows/Engine.ini]
+[2022.09.28-23.59.43:791][  0]LogInit: Computer: DESKTOP-DBM5LAL
+[2022.09.28-23.59.43:791][  0]LogInit: User: spard
+[2022.09.28-23.59.43:791][  0]LogInit: CPU Page size=4096, Cores=8
+[2022.09.28-23.59.43:791][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2022.09.28-23.59.43:791][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2022.09.28-23.59.43:791][  0]LogMemory: Platform Memory Stats for Windows
+[2022.09.28-23.59.43:791][  0]LogMemory: Process Physical Memory: 121.62 MB used, 122.18 MB peak
+[2022.09.28-23.59.43:791][  0]LogMemory: Process Virtual Memory: 106.38 MB used, 106.38 MB peak
+[2022.09.28-23.59.43:791][  0]LogMemory: Physical Memory: 6013.21 MB used,  2112.74 MB free, 8125.95 MB total
+[2022.09.28-23.59.43:791][  0]LogMemory: Virtual Memory: 5233.24 MB used,  134212496.00 MB free, 134217728.00 MB total
+[2022.09.28-23.59.43:836][  0]LogWindows: WindowsPlatformFeatures enabled
+[2022.09.28-23.59.44:603][  0]LogInit: Physics initialised using underlying interface: PhysX
+[2022.09.28-23.59.44:838][  0]LogInit: Using OS detected language (en-US).
+[2022.09.28-23.59.44:838][  0]LogInit: Using OS detected locale (en-US).
+[2022.09.28-23.59.44:855][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2022.09.28-23.59.45:437][  0]LogInit: Setting process to per monitor DPI aware
+[2022.09.28-23.59.45:604][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2022.09.28-23.59.45:604][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2022.09.28-23.59.50:159][  0]LogHMD: Failed to initialize OpenVR with code 101
+[2022.09.28-23.59.50:159][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2022.09.28-23.59.50:159][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2022.09.28-23.59.50:159][  0]LogD3D11RHI: D3D11 adapters:
+[2022.09.28-23.59.50:630][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 960' (Feature Level 11_0)
+[2022.09.28-23.59.50:630][  0]LogD3D11RHI:       2007/0/4062 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2022.09.28-23.59.50:649][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2022.09.28-23.59.50:649][  0]LogD3D11RHI:       0/0/4062 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2022.09.28-23.59.50:649][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2022.09.28-23.59.50:660][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2022.09.28-23.59.50:660][  0]LogD3D11RHI:     GPU DeviceId: 0x1401 (for the marketing name, search the web for "GPU Device Id")
+[2022.09.28-23.59.50:660][  0]LogWindows: EnumDisplayDevices:
+[2022.09.28-23.59.50:660][  0]LogWindows:    0. 'NVIDIA GeForce GTX 960' (P:1 D:1)
+[2022.09.28-23.59.50:660][  0]LogWindows:    1. 'NVIDIA GeForce GTX 960' (P:0 D:1)
+[2022.09.28-23.59.50:660][  0]LogWindows:    2. 'NVIDIA GeForce GTX 960' (P:0 D:0)
+[2022.09.28-23.59.50:660][  0]LogWindows:    3. 'NVIDIA GeForce GTX 960' (P:0 D:0)
+[2022.09.28-23.59.50:661][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2022.09.28-23.59.50:661][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 960
+[2022.09.28-23.59.50:661][  0]LogD3D11RHI:   Driver Version: 512.15 (internal:30.0.15.1215, unified:512.15)
+[2022.09.28-23.59.50:661][  0]LogD3D11RHI:      Driver Date: 3-17-2022
+[2022.09.28-23.59.50:661][  0]LogRHI: Texture pool is 1405 MB (70% of 2007 MB)
+[2022.09.28-23.59.50:832][  0]LogD3D11RHI: RHI has support for 64 bit atomics
+[2022.09.28-23.59.50:834][  0]LogD3D11RHI: Async texture creation enabled
+[2022.09.28-23.59.50:834][  0]LogD3D11RHI: Array index from any shader is supported
+[2022.09.28-23.59.50:893][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2022.09.28-23.59.56:243][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2022.09.28-23.59.56:342][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2022.09.28-23.59.56:342][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2022.09.28-23.59.56:342][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2022.09.28-23.59.56:342][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2022.09.28-23.59.56:342][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2022.09.28-23.59.56:342][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2022.09.28-23.59.56:342][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2022.09.28-23.59.56:342][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2022.09.28-23.59.56:342][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2022.09.28-23.59.56:342][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2022.09.28-23.59.56:482][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2022.09.28-23.59.56:482][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2022.09.28-23.59.56:526][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2022.09.28-23.59.56:558][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2022.09.28-23.59.56:588][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2022.09.28-23.59.56:615][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2022.09.28-23.59.56:642][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2022.09.28-23.59.56:713][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2022.09.28-23.59.56:759][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2022.09.28-23.59.56:822][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2022.09.28-23.59.56:822][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2022.09.28-23.59.56:961][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2022.09.28-23.59.56:961][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2022.09.28-23.59.57:008][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2022.09.28-23.59.57:037][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2022.09.28-23.59.57:064][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2022.09.28-23.59.57:100][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2022.09.28-23.59.57:100][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2022.09.28-23.59.57:255][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2022.09.28-23.59.57:941][  0]LogShaderCompilers: Guid format shader working directory is -20 characters bigger than the processId version (C:/Users/spard/Documents/GitHub/CarGame/CarGateGame01/CarGateGame/Intermediate/Shaders/WorkingDirectory/15784/).
+[2022.09.28-23.59.57:941][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/spard/AppData/Local/Temp/UnrealShaderWorkingDir/65CFD3674533336E226625831CEDD2C0/'.
+[2022.09.28-23.59.57:942][  0]LogXGEController: Cleaning working directory: C:/Users/spard/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2022.09.28-23.59.57:984][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2022.09.28-23.59.57:984][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2022.09.28-23.59.57:984][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2022.09.29-00.00.02:557][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2022.09.29-00.00.03:492][  0]LogDerivedDataCache: Loaded boot cache 0.94s 79MB C:/Users/spard/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2022.09.29-00.00.03:524][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/spard/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc
+[2022.09.29-00.00.03:532][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/spard/Documents/GitHub/CarGame/CarGateGame01/CarGateGame/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2022.09.29-00.00.03:532][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2022.09.29-00.00.03:532][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/spard/Documents/GitHub/CarGame/CarGateGame01/CarGateGame/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2022.09.29-00.00.03:532][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2022.09.29-00.00.03:629][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2022.09.29-00.00.03:629][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2022.09.29-00.00.03:629][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2022.09.29-00.00.03:651][  0]LogDerivedDataCache: Using Local data cache path C:/Users/spard/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2022.09.29-00.00.03:651][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2022.09.29-00.00.03:651][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2022.09.29-00.00.03:709][  0]LogSlate: Using FreeType 2.10.0
+[2022.09.29-00.00.03:754][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2022.09.29-00.00.04:495][  0]LogAssetRegistry: FAssetRegistry took 0.0032 seconds to start up
+[2022.09.29-00.00.05:012][  0]LogInit: Selected Device Profile: [Windows]
+[2022.09.29-00.00.06:226][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2022.09.29-00.00.06:226][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2022.09.29-00.00.06:226][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2022.09.29-00.00.06:226][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2022.09.29-00.00.06:226][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2022.09.29-00.00.06:345][  0]LogNetVersion: HorseGame 1.0.0, NetCL: 13144385, EngineNetVer: 14, GameNetVer: 0 (Checksum: 2930509349)
+[2022.09.29-00.00.12:281][  0]LogAISub: UAISubsystem::UAISubsystem AISubsystem (00000211B5C61080), frame # 0
+[2022.09.29-00.00.12:281][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000211B6AF2840), frame # 0
+[2022.09.29-00.00.12:285][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000211B5C52400), frame # 0
+[2022.09.29-00.00.12:600][  0]LogPackageLocalizationCache: Processed 19 localized package path(s) for 1 prioritized culture(s) in 0.258573 seconds
+[2022.09.29-00.00.12:607][  0]LogUObjectArray: 15921 objects as part of root set at end of initial load.
+[2022.09.29-00.00.12:607][  0]LogUObjectAllocator: 3966384 out of 0 bytes used by permanent object pool.
+[2022.09.29-00.00.12:607][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2022.09.29-00.00.16:774][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2022.09.29-00.00.16:800][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2022.09.29-00.00.17:634][  0]SourceControl: Source control is disabled
+[2022.09.29-00.00.17:634][  0]SourceControl: Source control is disabled
+[2022.09.29-00.00.17:692][  0]SourceControl: Source control is disabled
+[2022.09.29-00.00.17:718][  0]SourceControl: Source control is disabled
+[2022.09.29-00.00.17:768][  0]SourceControl: Source control is disabled
+[2022.09.29-00.00.20:617][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2022.09.29-00.00.20:856][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2022.09.29-00.00.20:856][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2022.09.29-00.00.21:269][  0]LogOcInput: OculusInput pre-init called
+[2022.09.29-00.00.22:230][  0]LogEngine: Initializing Engine...
+[2022.09.29-00.00.22:233][  0]LogHMD: Failed to initialize OpenVR with code 101
+[2022.09.29-00.00.22:233][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
+[2022.09.29-00.00.22:237][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.001 s
+[2022.09.29-00.00.22:606][  0]LogInit: Initializing FReadOnlyCVARCache
+[2022.09.29-00.00.22:669][  0]LogAIModule: Creating AISystem for world Untitled
+[2022.09.29-00.00.22:669][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000211C2279800), frame # 0
+[2022.09.29-00.00.22:669][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000211BBBB4A40), frame # 0
+[2022.09.29-00.00.22:694][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.09.29-00.00.22:694][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.09.29-00.00.22:694][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.09.29-00.00.22:694][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.09.29-00.00.22:694][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.09.29-00.00.22:694][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.09.29-00.00.22:694][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.09.29-00.00.22:694][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.09.29-00.00.22:695][  0]LogAudio: Display: Using built-in audio occlusion.
+[2022.09.29-00.00.22:695][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2022.09.29-00.00.22:873][  0]LogAudioMixer: Display: 0: FrontLeft
+[2022.09.29-00.00.22:873][  0]LogAudioMixer: Display: 1: FrontRight
+[2022.09.29-00.00.23:002][  0]LogAudioMixer: Display: Using Audio Device FHX2300 (NVIDIA High Definition Audio)
+[2022.09.29-00.00.23:006][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.09.29-00.00.23:051][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.09.29-00.00.23:051][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.09.29-00.00.23:053][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.09.29-00.00.23:054][  0]LogInit: FAudioDevice initialized.
+[2022.09.29-00.00.23:055][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2022.09.29-00.00.23:295][  0]LogDerivedDataCache: Saved boot cache 0.24s 79MB C:/Users/spard/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2022.09.29-00.00.23:295][  0]LogInit: Texture streaming: Enabled
+[2022.09.29-00.00.23:428][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2022.09.29-00.00.23:428][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2022.09.29-00.00.23:453][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2022.09.29-00.00.23:622][  0]LogInit: Transaction tracking system initialized
+[2022.09.29-00.00.23:797][  0]BlueprintLog: New page: Editor Load
+[2022.09.29-00.00.24:578][  0]LocalizationService: Localization service is disabled
+[2022.09.29-00.00.26:496][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2022.09.29-00.00.26:497][  0]LogCook: Display: Mobile HDR setting 1
+[2022.09.29-00.00.26:796][  0]LogFileCache: Scanning file cache for directory 'C:/Users/spard/Documents/GitHub/CarGame/CarGateGame01/CarGateGame/Content/' took 0.09s
+[2022.09.29-00.00.28:762][  0]SourceControl: Source control is disabled
+[2022.09.29-00.00.28:763][  0]LogUnrealEdMisc: Loading editor; pre map load, took 73.780
+[2022.09.29-00.00.28:763][  0]Cmd: MAP LOAD FILE="C:/Users/spard/Documents/GitHub/CarGame/CarGateGame01/CarGateGame/Content/VehicleBP/Maps/VehicleExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2022.09.29-00.00.28:764][  0]LightingResults: New page: Lighting Build
+[2022.09.29-00.00.28:768][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2022.09.29-00.00.28:768][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.29-00.00.28:768][  0]MapCheck: New page: Map Check
+[2022.09.29-00.00.28:768][  0]LightingResults: New page: Lighting Build
+[2022.09.29-00.00.28:787][  0]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (00000211C2279800), frame # 0
+[2022.09.29-00.00.28:787][  0]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000211BBBB4A40), frame # 0
+[2022.09.29-00.00.28:788][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.80ms
+[2022.09.29-00.00.36:724][  0]LogMaterial: Display: Missing cached shader map for material 01_-_Default, compiling. 
+[2022.09.29-00.00.36:726][  0]LogMaterial: Warning: C:\Users\spard\Documents\GitHub\CarGame\CarGateGame01\CarGateGame\Content\Materials+Images\01_-_Default.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2022.09.29-00.00.36:726][  0]LogMaterial: Display: 	(Node TextureSample) TextureSample> Sampler type is Color, should be Linear Color for /Game/VehicleBP/Vehicles/foodTruck01_tex.foodTruck01_tex
+[2022.09.29-00.00.39:122][  0]LogMaterial: Display: Missing cached shader map for material Material__16, compiling. 
+[2022.09.29-00.00.39:123][  0]LogMaterial: Warning: C:\Users\spard\Documents\GitHub\CarGame\CarGateGame01\CarGateGame\Content\VehicleBP\Vehicles\FoodTruck01\Material__16.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2022.09.29-00.00.39:123][  0]LogMaterial: Display: 	(Node TextureSample) TextureSample> Sampler type is Color, should be Linear Color for /Game/VehicleBP/Vehicles/FoodTruck01/FoodTruck01_Light_tex.FoodTruck01_Light_tex
+[2022.09.29-00.00.39:319][  0]LogMaterial: Display: Missing cached shader map for material Material__11, compiling. 
+[2022.09.29-00.00.39:319][  0]LogMaterial: Warning: C:\Users\spard\Documents\GitHub\CarGame\CarGateGame01\CarGateGame\Content\VehicleBP\Vehicles\FoodTruck01\Material__11.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2022.09.29-00.00.39:319][  0]LogMaterial: Display: 	(Node TextureSample) TextureSample> Sampler type is Color, should be Linear Color for /Game/VehicleBP/Vehicles/FoodTruck01/Inside_Counter01_tex.Inside_Counter01_tex
+[2022.09.29-00.00.39:785][  0]LogAIModule: Creating AISystem for world VehicleExampleMap
+[2022.09.29-00.00.39:785][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000211C69C3E00), frame # 0
+[2022.09.29-00.00.39:785][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000211C24A1E40), frame # 0
+[2022.09.29-00.00.39:831][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2022.09.29-00.00.39:857][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.24ms
+[2022.09.29-00.00.39:858][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2022.09.29-00.00.39:859][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.464ms to complete.
+[2022.09.29-00.00.39:859][  0]LogFileHelpers: Loading map 'VehicleExampleMap' took 11.096
+[2022.09.29-00.00.39:895][  0]LogUnrealEdMisc: Total Editor Startup Time, took 84.912
+[2022.09.29-00.00.40:905][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.29-00.00.40:913][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.29-00.00.40:923][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.29-00.00.40:931][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.29-00.00.41:140][  0]LogCollectionManager: Loaded 0 collections in 0.025175 seconds
+[2022.09.29-00.00.41:166][  0]LogFileCache: Scanning file cache for directory 'C:/Users/spard/Documents/GitHub/CarGame/CarGateGame01/CarGateGame/Saved/Collections/' took 0.00s
+[2022.09.29-00.00.41:166][  0]LogFileCache: Scanning file cache for directory 'C:/Users/spard/Documents/GitHub/CarGame/CarGateGame01/CarGateGame/Content/Developers/spard/Collections/' took 0.00s
+[2022.09.29-00.00.41:166][  0]LogFileCache: Scanning file cache for directory 'C:/Users/spard/Documents/GitHub/CarGame/CarGateGame01/CarGateGame/Content/Collections/' took 0.00s
+[2022.09.29-00.00.41:166][  0]LogContentBrowser: Native class hierarchy populated in 0.0116 seconds. Added 3429 classes and 824 folders.
+[2022.09.29-00.00.41:182][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2022.09.29-00.00.41:910][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2022.09.29-00.00.41:918][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 2 classes and 0 folders.
+[2022.09.29-00.00.42:157][  0]LogSlate: Took 0.006075 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2022.09.29-00.00.42:164][  0]LogSlate: Took 0.005089 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2022.09.29-00.00.42:175][  0]LogSlate: Took 0.005473 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2022.09.29-00.00.42:349][  0]LogRenderer: Reallocating scene render targets to support 1156x540 Format 10 NumSamples 1 (Frame:1).
+[2022.09.29-00.00.42:882][  0]LogSlate: Took 0.064283 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2022.09.29-00.00.43:012][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2022.09.29-00.00.43:012][  0]LogLoad: (Engine Initialization) Total time: 88.03 seconds
+[2022.09.29-00.00.43:012][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2022.09.29-00.00.43:092][  0]LogRawInputWindows: Warning: Found device 11 devices
+[2022.09.29-00.00.43:092][  0]LogRawInputWindows: Warning: Found device 11 devices
+[2022.09.29-00.00.43:092][  0]LogRawInputWindows: Warning: Device was registered succesfully but not connected (Usage:4 UsagePage:1)
+[2022.09.29-00.00.43:093][  0]LogRawInputWindows: Warning: Found device 11 devices
+[2022.09.29-00.00.43:093][  0]LogRawInputWindows: VenderID:20d6 ProductID:a711
+[2022.09.29-00.00.43:093][  0]LogRawInputWindows: Device was registered succesfully and is connected (Usage:5 UsagePage:1)
+[2022.09.29-00.00.43:181][  0]LogAssetRegistry: Asset discovery search completed in 38.6872 seconds
+[2022.09.29-00.00.43:185][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000003 seconds (updated 0 objects)
+[2022.09.29-00.00.43:188][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2022.09.29-00.00.43:325][  1]LogRenderer: Reallocating scene render targets to support 1156x556 Format 10 NumSamples 1 (Frame:2).
+[2022.09.29-00.00.47:117][407]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2022.09.29-00.00.47:140][407]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.09.29-00.00.47:143][407]PIE: New page: PIE session: VehicleExampleMap (Sep 28, 2022, 6:00:47 PM)
+[2022.09.29-00.00.47:145][407]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2022.09.29-00.00.47:146][407]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2022.09.29-00.00.47:146][407]LogPlayLevel: Creating play world package: /Game/VehicleBP/Maps/UEDPIE_0_VehicleExampleMap
+[2022.09.29-00.00.47:182][407]LogPlayLevel: PIE: StaticDuplicateObject took: (0.036103s)
+[2022.09.29-00.00.47:183][407]LogAIModule: Creating AISystem for world VehicleExampleMap
+[2022.09.29-00.00.47:183][407]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000211E8E25800), frame # 407
+[2022.09.29-00.00.47:183][407]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000211A7E89940), frame # 407
+[2022.09.29-00.00.47:184][407]LogPlayLevel: PIE: World Init took: (0.001510s)
+[2022.09.29-00.00.47:184][407]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap to /Game/VehicleBP/Maps/UEDPIE_0_VehicleExampleMap.VehicleExampleMap (0.037815s)
+[2022.09.29-00.00.47:204][407]LogUObjectHash: Compacting FUObjectHashTables data took   0.97ms
+[2022.09.29-00.00.47:206][407]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.09.29-00.00.47:206][407]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.09.29-00.00.47:206][407]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.09.29-00.00.47:206][407]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.09.29-00.00.47:206][407]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.09.29-00.00.47:206][407]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.09.29-00.00.47:206][407]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.09.29-00.00.47:206][407]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.09.29-00.00.47:207][407]LogAudio: Display: Using built-in audio occlusion.
+[2022.09.29-00.00.47:207][407]LogAudioMixer: Display: Initializing audio mixer.
+[2022.09.29-00.00.47:212][407]LogAudioMixer: Display: 0: FrontLeft
+[2022.09.29-00.00.47:212][407]LogAudioMixer: Display: 1: FrontRight
+[2022.09.29-00.00.47:587][407]LogAudioMixer: Display: Using Audio Device FHX2300 (NVIDIA High Definition Audio)
+[2022.09.29-00.00.47:587][407]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.09.29-00.00.47:587][407]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.09.29-00.00.47:587][407]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.09.29-00.00.47:587][407]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.09.29-00.00.47:602][407]LogInit: FAudioDevice initialized.
+[2022.09.29-00.00.47:658][407]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.29-00.00.47:659][407]LogLoad: Game class is 'VehicleGameMode_C'
+[2022.09.29-00.00.47:676][407]LogWorld: Bringing World /Game/VehicleBP/Maps/UEDPIE_0_VehicleExampleMap.VehicleExampleMap up for play (max tick rate 0) at 2022.09.28-21.00.47
+[2022.09.29-00.00.47:677][407]LogWorld: Bringing up level for play took: 0.015499
+[2022.09.29-00.00.47:677][407]LogOnline: OSS: Creating online subsystem instance for: :Context_1
+[2022.09.29-00.00.47:682][407]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0004 seconds. Added 20 classes and 0 folders.
+[2022.09.29-00.00.47:711][407]LogSlate: WidgetSwitcher ('None') active index changed to 3
+[2022.09.29-00.00.47:715][407]LogBlueprintUserMessages: [Track01_C_0] level 0
+[2022.09.29-00.00.47:716][407]LogBlueprintUserMessages: [Track01_C_0] 2
+[2022.09.29-00.00.47:737][407]PIE: Server logged in
+[2022.09.29-00.00.47:739][407]PIE: Play in editor total start time 0.6 seconds.
+[2022.09.29-00.00.47:801][408]LogRenderer: Reallocating scene render targets to support 1280x720 Format 10 NumSamples 1 (Frame:1).
+[2022.09.29-00.00.49:448][537]LogSlate: WidgetSwitcher ('None') active index changed to 0
+[2022.09.29-00.00.54:348][ 40]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.29-00.00.54:349][ 40]LogWorld: BeginTearingDown for /Game/VehicleBP/Maps/UEDPIE_0_VehicleExampleMap
+[2022.09.29-00.00.54:349][ 40]LogSlate: Window 'HorseGame Preview [NetMode: Standalone] (64-bit/Windows) ' being destroyed
+[2022.09.29-00.00.54:355][ 40]LogWorld: UWorld::CleanupWorld for VehicleExampleMap, bSessionEnded=true, bCleanupResources=true
+[2022.09.29-00.00.54:361][ 40]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.29-00.00.54:370][ 40]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.09.29-00.00.54:372][ 40]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.29-00.00.54:409][ 40]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000211A7E89940), frame # 1040
+[2022.09.29-00.00.54:409][ 40]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (00000211E8E25800), frame # 1040
+[2022.09.29-00.00.54:411][ 40]LogUObjectHash: Compacting FUObjectHashTables data took   0.83ms
+[2022.09.29-00.00.54:450][ 41]LogPlayLevel: Display: Destroying online subsystem :Context_1
+[2022.09.29-00.01.07:089][512]LogEditorViewport: Clicking on Actor (LMB): Track01_C (Track01)
+[2022.09.29-00.01.08:537][648]LogSlate: Took 0.000269 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2022.09.29-00.01.08:562][648]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/_LevelsTracks_Gates/Track01.Track01
+[2022.09.29-00.01.09:183][648]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0007 seconds. Added 125 classes and 0 folders.
+[2022.09.29-00.01.10:312][648]LogSpawn: Warning: SpawnActor failed because we are running a ConstructionScript (Car_RunOverGame_C)
+[2022.09.29-00.01.10:312][648]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue
+	Track01_C /Engine/Transient.World_0:PersistentLevel.Track01_C_0
+	Function /Game/_LevelsTracks_Gates/Track01.Track01_C:Move Player Start to Beginning:03FE
+[2022.09.29-00.01.10:341][648]LogSlate: Took 0.025800 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2022.09.29-00.01.10:420][649]LogSlate: Took 0.005963 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2022.09.29-00.01.12:110][789]LogSpawn: Warning: SpawnActor failed because we are running a ConstructionScript (Car_RunOverGame_C)
+[2022.09.29-00.01.12:110][789]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue
+	Track01_C /Engine/Transient.World_0:PersistentLevel.Track01_C_0
+	Function /Game/_LevelsTracks_Gates/Track01.Track01_C:Move Player Start to Beginning:03FE
+[2022.09.29-00.01.15:890][106]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/_LevelsTracks_Gates/Gates/FinishLine.FinishLine
+[2022.09.29-00.01.29:215][460]BlueprintLog: New page: Compile FinishLine
+[2022.09.29-00.01.29:353][460]LogUObjectHash: Compacting FUObjectHashTables data took   2.90ms
+[2022.09.29-00.01.29:373][460]LogActorComponent: RegisterComponentWithWorld: (/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.DESTROYED_FinishLine_C_CHILDACTOR_5106.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2022.09.29-00.01.29:419][460]LogSpawn: Warning: SpawnActor failed because we are running a ConstructionScript (Car_RunOverGame_C)
+[2022.09.29-00.01.29:419][460]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue
+	Track01_C /Engine/Transient.World_0:PersistentLevel.Track01_C_0
+	Function /Game/_LevelsTracks_Gates/Track01.Track01_C:Move Player Start to Beginning:03FE
+[2022.09.29-00.01.29:447][460]LogActorComponent: RegisterComponentWithWorld: (/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.DESTROYED_FinishLine_C_CHILDACTOR_5110.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2022.09.29-00.01.29:470][460]LogSpawn: Warning: SpawnActor failed because we are running a ConstructionScript (Car_RunOverGame_C)
+[2022.09.29-00.01.29:470][460]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue
+	Track01_C /Engine/Transient.World_0:PersistentLevel.Track01_C_0
+	Function /Game/_LevelsTracks_Gates/Track01.Track01_C:Move Player Start to Beginning:03FE
+[2022.09.29-00.01.29:526][460]LogSlate: Took 0.006833 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2022.09.29-00.01.30:345][530]LogSavePackage: Moving 'C:/Users/spard/Documents/GitHub/CarGame/CarGateGame01/CarGateGame/Saved/FinishLine244B142440880E006B2E039CBF508FB0.tmp' to 'C:/Users/spard/Documents/GitHub/CarGame/CarGateGame01/CarGateGame/Content/_LevelsTracks_Gates/Gates/FinishLine.uasset'
+[2022.09.29-00.01.30:362][530]AssetCheck: New page: Asset Save: FinishLine
+[2022.09.29-00.01.30:363][530]LogContentValidation: Display: Validating Blueprint /Game/_LevelsTracks_Gates/Gates/FinishLine.FinishLine
+[2022.09.29-00.01.41:821][709]LogSavePackage: Moving 'C:/Users/spard/Documents/GitHub/CarGame/CarGateGame01/CarGateGame/Saved/FinishLineAE7DD25A493F896A2C5EE791178C061E.tmp' to 'C:/Users/spard/Documents/GitHub/CarGame/CarGateGame01/CarGateGame/Content/_LevelsTracks_Gates/Gates/FinishLine.uasset'
+[2022.09.29-00.01.41:833][709]AssetCheck: New page: Asset Save: FinishLine
+[2022.09.29-00.01.41:833][709]LogContentValidation: Display: Validating Blueprint /Game/_LevelsTracks_Gates/Gates/FinishLine.FinishLine
+[2022.09.29-00.01.45:765][ 93]LogSpawn: Warning: SpawnActor failed because we are running a ConstructionScript (Car_RunOverGame_C)
+[2022.09.29-00.01.45:765][ 93]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue
+	Track01_C /Engine/Transient.World_0:PersistentLevel.Track01_C_0
+	Function /Game/_LevelsTracks_Gates/Track01.Track01_C:Move Player Start to Beginning:03FE
+[2022.09.29-00.02.13:854][ 32]LogActorComponent: RegisterComponentWithWorld: (/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.DESTROYED_FinishLine_C_CHILDACTOR_5114.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2022.09.29-00.02.34:796][422]BlueprintLog: New page: Compile FinishLine
+[2022.09.29-00.02.34:895][422]LogUObjectHash: Compacting FUObjectHashTables data took   2.91ms
+[2022.09.29-00.02.34:926][422]LogActorComponent: RegisterComponentWithWorld: (/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.DESTROYED_FinishLine_C_CHILDACTOR_5116.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2022.09.29-00.02.34:968][422]LogSpawn: Warning: SpawnActor failed because we are running a ConstructionScript (Car_RunOverGame_C)
+[2022.09.29-00.02.34:968][422]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue
+	Track01_C /Engine/Transient.World_0:PersistentLevel.Track01_C_0
+	Function /Game/_LevelsTracks_Gates/Track01.Track01_C:Move Player Start to Beginning:03FE
+[2022.09.29-00.02.34:997][422]LogActorComponent: RegisterComponentWithWorld: (/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.DESTROYED_FinishLine_C_CHILDACTOR_5120.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2022.09.29-00.02.35:019][422]LogSpawn: Warning: SpawnActor failed because we are running a ConstructionScript (Car_RunOverGame_C)
+[2022.09.29-00.02.35:019][422]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue
+	Track01_C /Engine/Transient.World_0:PersistentLevel.Track01_C_0
+	Function /Game/_LevelsTracks_Gates/Track01.Track01_C:Move Player Start to Beginning:03FE
+[2022.09.29-00.02.35:462][450]LogSavePackage: Moving 'C:/Users/spard/Documents/GitHub/CarGame/CarGateGame01/CarGateGame/Saved/FinishLine31DD89564BEABA916EF7FBB9095A2DE1.tmp' to 'C:/Users/spard/Documents/GitHub/CarGame/CarGateGame01/CarGateGame/Content/_LevelsTracks_Gates/Gates/FinishLine.uasset'
+[2022.09.29-00.02.35:478][450]AssetCheck: New page: Asset Save: FinishLine
+[2022.09.29-00.02.35:478][450]LogContentValidation: Display: Validating Blueprint /Game/_LevelsTracks_Gates/Gates/FinishLine.FinishLine
+[2022.09.29-00.02.43:613][326]BlueprintLog: New page: Compile FinishLine
+[2022.09.29-00.02.43:710][326]LogUObjectHash: Compacting FUObjectHashTables data took   2.92ms
+[2022.09.29-00.02.43:741][326]LogActorComponent: RegisterComponentWithWorld: (/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.DESTROYED_FinishLine_C_CHILDACTOR_5124.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2022.09.29-00.02.43:784][326]LogSpawn: Warning: SpawnActor failed because we are running a ConstructionScript (Car_RunOverGame_C)
+[2022.09.29-00.02.43:784][326]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue
+	Track01_C /Engine/Transient.World_0:PersistentLevel.Track01_C_0
+	Function /Game/_LevelsTracks_Gates/Track01.Track01_C:Move Player Start to Beginning:03FE
+[2022.09.29-00.02.43:814][326]LogActorComponent: RegisterComponentWithWorld: (/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.DESTROYED_FinishLine_C_CHILDACTOR_5128.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2022.09.29-00.02.43:837][326]LogSpawn: Warning: SpawnActor failed because we are running a ConstructionScript (Car_RunOverGame_C)
+[2022.09.29-00.02.43:837][326]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue
+	Track01_C /Engine/Transient.World_0:PersistentLevel.Track01_C_0
+	Function /Game/_LevelsTracks_Gates/Track01.Track01_C:Move Player Start to Beginning:03FE
+[2022.09.29-00.02.44:320][360]LogSavePackage: Moving 'C:/Users/spard/Documents/GitHub/CarGame/CarGateGame01/CarGateGame/Saved/FinishLineE7AC9C7A467A2E67B768949A56B60B54.tmp' to 'C:/Users/spard/Documents/GitHub/CarGame/CarGateGame01/CarGateGame/Content/_LevelsTracks_Gates/Gates/FinishLine.uasset'
+[2022.09.29-00.02.44:333][360]AssetCheck: New page: Asset Save: FinishLine
+[2022.09.29-00.02.44:333][360]LogContentValidation: Display: Validating Blueprint /Game/_LevelsTracks_Gates/Gates/FinishLine.FinishLine
+[2022.09.29-00.02.51:721][162]BlueprintLog: New page: Compile FinishLine
+[2022.09.29-00.02.51:819][162]LogUObjectHash: Compacting FUObjectHashTables data took   3.13ms
+[2022.09.29-00.02.51:848][162]LogActorComponent: RegisterComponentWithWorld: (/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.DESTROYED_FinishLine_C_CHILDACTOR_5132.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2022.09.29-00.02.51:890][162]LogSpawn: Warning: SpawnActor failed because we are running a ConstructionScript (Car_RunOverGame_C)
+[2022.09.29-00.02.51:890][162]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue
+	Track01_C /Engine/Transient.World_0:PersistentLevel.Track01_C_0
+	Function /Game/_LevelsTracks_Gates/Track01.Track01_C:Move Player Start to Beginning:03FE
+[2022.09.29-00.02.51:920][162]LogActorComponent: RegisterComponentWithWorld: (/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.DESTROYED_FinishLine_C_CHILDACTOR_5136.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2022.09.29-00.02.51:942][162]LogSpawn: Warning: SpawnActor failed because we are running a ConstructionScript (Car_RunOverGame_C)
+[2022.09.29-00.02.51:942][162]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue
+	Track01_C /Engine/Transient.World_0:PersistentLevel.Track01_C_0
+	Function /Game/_LevelsTracks_Gates/Track01.Track01_C:Move Player Start to Beginning:03FE
+[2022.09.29-00.02.52:402][191]LogSavePackage: Moving 'C:/Users/spard/Documents/GitHub/CarGame/CarGateGame01/CarGateGame/Saved/FinishLine0C2824804ED7BCE306F670943F5FFA95.tmp' to 'C:/Users/spard/Documents/GitHub/CarGame/CarGateGame01/CarGateGame/Content/_LevelsTracks_Gates/Gates/FinishLine.uasset'
+[2022.09.29-00.02.52:414][191]AssetCheck: New page: Asset Save: FinishLine
+[2022.09.29-00.02.52:414][191]LogContentValidation: Display: Validating Blueprint /Game/_LevelsTracks_Gates/Gates/FinishLine.FinishLine
+[2022.09.29-00.03.01:988][196]BlueprintLog: New page: Compile FinishLine
+[2022.09.29-00.03.02:088][196]LogUObjectHash: Compacting FUObjectHashTables data took   3.13ms
+[2022.09.29-00.03.02:124][196]LogActorComponent: RegisterComponentWithWorld: (/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.DESTROYED_FinishLine_C_CHILDACTOR_5140.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2022.09.29-00.03.02:173][196]LogSpawn: Warning: SpawnActor failed because we are running a ConstructionScript (Car_RunOverGame_C)
+[2022.09.29-00.03.02:173][196]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue
+	Track01_C /Engine/Transient.World_0:PersistentLevel.Track01_C_0
+	Function /Game/_LevelsTracks_Gates/Track01.Track01_C:Move Player Start to Beginning:03FE
+[2022.09.29-00.03.02:205][196]LogActorComponent: RegisterComponentWithWorld: (/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.DESTROYED_FinishLine_C_CHILDACTOR_5144.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2022.09.29-00.03.02:227][196]LogSpawn: Warning: SpawnActor failed because we are running a ConstructionScript (Car_RunOverGame_C)
+[2022.09.29-00.03.02:227][196]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue
+	Track01_C /Engine/Transient.World_0:PersistentLevel.Track01_C_0
+	Function /Game/_LevelsTracks_Gates/Track01.Track01_C:Move Player Start to Beginning:03FE
+[2022.09.29-00.03.10:047][ 40]BlueprintLog: New page: Compile FinishLine
+[2022.09.29-00.03.10:146][ 40]LogUObjectHash: Compacting FUObjectHashTables data took   2.79ms
+[2022.09.29-00.03.10:176][ 40]LogActorComponent: RegisterComponentWithWorld: (/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.DESTROYED_FinishLine_C_CHILDACTOR_5148.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2022.09.29-00.03.10:220][ 40]LogSpawn: Warning: SpawnActor failed because we are running a ConstructionScript (Car_RunOverGame_C)
+[2022.09.29-00.03.10:220][ 40]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue
+	Track01_C /Engine/Transient.World_0:PersistentLevel.Track01_C_0
+	Function /Game/_LevelsTracks_Gates/Track01.Track01_C:Move Player Start to Beginning:03FE
+[2022.09.29-00.03.10:252][ 40]LogActorComponent: RegisterComponentWithWorld: (/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.DESTROYED_FinishLine_C_CHILDACTOR_5152.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2022.09.29-00.03.10:275][ 40]LogSpawn: Warning: SpawnActor failed because we are running a ConstructionScript (Car_RunOverGame_C)
+[2022.09.29-00.03.10:275][ 40]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue
+	Track01_C /Engine/Transient.World_0:PersistentLevel.Track01_C_0
+	Function /Game/_LevelsTracks_Gates/Track01.Track01_C:Move Player Start to Beginning:03FE
+[2022.09.29-00.03.10:887][ 89]LogSavePackage: Moving 'C:/Users/spard/Documents/GitHub/CarGame/CarGateGame01/CarGateGame/Saved/FinishLine930FB26D4AFD71DA9CAC0097F25D1034.tmp' to 'C:/Users/spard/Documents/GitHub/CarGame/CarGateGame01/CarGateGame/Content/_LevelsTracks_Gates/Gates/FinishLine.uasset'
+[2022.09.29-00.03.10:899][ 89]AssetCheck: New page: Asset Save: FinishLine
+[2022.09.29-00.03.10:899][ 89]LogContentValidation: Display: Validating Blueprint /Game/_LevelsTracks_Gates/Gates/FinishLine.FinishLine
+[2022.09.29-00.03.15:031][473]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2022.09.29-00.03.15:051][473]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.09.29-00.03.15:051][473]PIE: New page: PIE session: VehicleExampleMap (Sep 28, 2022, 6:03:15 PM)
+[2022.09.29-00.03.15:052][473]LogPlayLevel: Creating play world package: /Game/VehicleBP/Maps/UEDPIE_0_VehicleExampleMap
+[2022.09.29-00.03.15:076][473]LogPlayLevel: PIE: StaticDuplicateObject took: (0.024608s)
+[2022.09.29-00.03.15:077][473]LogAIModule: Creating AISystem for world VehicleExampleMap
+[2022.09.29-00.03.15:077][473]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000212397E1E00), frame # 15473
+[2022.09.29-00.03.15:077][473]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000002122515AC00), frame # 15473
+[2022.09.29-00.03.15:078][473]LogPlayLevel: PIE: World Init took: (0.001325s)
+[2022.09.29-00.03.15:078][473]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap to /Game/VehicleBP/Maps/UEDPIE_0_VehicleExampleMap.VehicleExampleMap (0.026122s)
+[2022.09.29-00.03.15:111][473]LogUObjectHash: Compacting FUObjectHashTables data took   2.62ms
+[2022.09.29-00.03.15:113][473]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.09.29-00.03.15:113][473]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.09.29-00.03.15:113][473]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.09.29-00.03.15:113][473]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.09.29-00.03.15:113][473]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.09.29-00.03.15:113][473]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.09.29-00.03.15:113][473]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.09.29-00.03.15:113][473]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.09.29-00.03.15:113][473]LogAudio: Display: Using built-in audio occlusion.
+[2022.09.29-00.03.15:113][473]LogAudioMixer: Display: Initializing audio mixer.
+[2022.09.29-00.03.15:119][473]LogAudioMixer: Display: 0: FrontLeft
+[2022.09.29-00.03.15:119][473]LogAudioMixer: Display: 1: FrontRight
+[2022.09.29-00.03.15:138][473]LogAudioMixer: Display: Using Audio Device FHX2300 (NVIDIA High Definition Audio)
+[2022.09.29-00.03.15:138][473]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.09.29-00.03.15:138][473]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.09.29-00.03.15:138][473]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.09.29-00.03.15:139][473]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.09.29-00.03.15:154][473]LogInit: FAudioDevice initialized.
+[2022.09.29-00.03.15:205][473]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.29-00.03.15:206][473]LogLoad: Game class is 'VehicleGameMode_C'
+[2022.09.29-00.03.15:221][473]LogWorld: Bringing World /Game/VehicleBP/Maps/UEDPIE_0_VehicleExampleMap.VehicleExampleMap up for play (max tick rate 0) at 2022.09.28-21.03.15
+[2022.09.29-00.03.15:222][473]LogWorld: Bringing up level for play took: 0.013669
+[2022.09.29-00.03.15:222][473]LogOnline: OSS: Creating online subsystem instance for: :Context_7
+[2022.09.29-00.03.15:250][473]LogSlate: WidgetSwitcher ('None') active index changed to 3
+[2022.09.29-00.03.15:254][473]LogBlueprintUserMessages: [Track01_C_0] level 0
+[2022.09.29-00.03.15:254][473]LogBlueprintUserMessages: [Track01_C_0] 2
+[2022.09.29-00.03.15:274][473]PIE: Server logged in
+[2022.09.29-00.03.15:276][473]PIE: Play in editor total start time 0.225 seconds.
+[2022.09.29-00.03.17:032][628]LogSlate: WidgetSwitcher ('None') active index changed to 0
+[2022.09.29-00.03.21:964][ 91]LogSlate: WidgetSwitcher ('None') active index changed to 1
+[2022.09.29-00.03.28:148][637]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.29-00.03.28:148][637]LogWorld: BeginTearingDown for /Game/VehicleBP/Maps/UEDPIE_0_VehicleExampleMap
+[2022.09.29-00.03.28:149][637]LogSlate: Window 'HorseGame Preview [NetMode: Standalone] (64-bit/Windows) ' being destroyed
+[2022.09.29-00.03.28:154][637]LogWorld: UWorld::CleanupWorld for VehicleExampleMap, bSessionEnded=true, bCleanupResources=true
+[2022.09.29-00.03.28:159][637]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.29-00.03.28:173][637]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.09.29-00.03.28:177][637]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.29-00.03.28:227][637]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000002122515AC00), frame # 16637
+[2022.09.29-00.03.28:227][637]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (00000212397E1E00), frame # 16637
+[2022.09.29-00.03.28:230][637]LogUObjectHash: Compacting FUObjectHashTables data took   2.32ms
+[2022.09.29-00.03.28:275][638]LogPlayLevel: Display: Destroying online subsystem :Context_7
+[2022.09.29-00.03.33:269][179]LogEditorViewport: Clicking on Actor (LMB): Track01_C (Track01)
+[2022.09.29-00.03.40:588][827]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/_LevelsTracks_Gates/Gates/StartLine1.StartLine1
+[2022.09.29-00.03.59:680][767]LogActorComponent: RegisterComponentWithWorld: (/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.DESTROYED_StartLine1_C_CHILDACTOR_1290.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2022.09.29-00.04.38:542][807]LogActorComponent: RegisterComponentWithWorld: (/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.DESTROYED_StartLine1_C_CHILDACTOR_1294.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2022.09.29-00.04.47:472][814]LogActorComponent: RegisterComponentWithWorld: (/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.DESTROYED_StartLine1_C_CHILDACTOR_1298.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2022.09.29-00.05.00:242][186]LogActorComponent: RegisterComponentWithWorld: (/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.DESTROYED_StartLine1_C_CHILDACTOR_1302.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2022.09.29-00.05.06:892][912]LogActorComponent: RegisterComponentWithWorld: (/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.DESTROYED_StartLine1_C_CHILDACTOR_1306.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2022.09.29-00.05.10:250][267]LogActorComponent: RegisterComponentWithWorld: (/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.DESTROYED_StartLine1_C_CHILDACTOR_1310.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2022.09.29-00.05.17:607][975]LogActorComponent: RegisterComponentWithWorld: (/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.DESTROYED_StartLine1_C_CHILDACTOR_1314.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2022.09.29-00.05.21:467][389]LogActorComponent: RegisterComponentWithWorld: (/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.DESTROYED_StartLine1_C_CHILDACTOR_1318.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2022.09.29-00.05.35:993][797]LogActorComponent: RegisterComponentWithWorld: (/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.DESTROYED_StartLine1_C_CHILDACTOR_1322.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2022.09.29-00.05.38:737][ 93]LogActorComponent: RegisterComponentWithWorld: (/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.DESTROYED_StartLine1_C_CHILDACTOR_1326.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2022.09.29-00.05.42:196][466]LogActorComponent: RegisterComponentWithWorld: (/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.DESTROYED_StartLine1_C_CHILDACTOR_1330.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2022.09.29-00.05.45:399][814]LogActorComponent: RegisterComponentWithWorld: (/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.DESTROYED_StartLine1_C_CHILDACTOR_1334.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2022.09.29-00.05.51:573][495]LogActorComponent: RegisterComponentWithWorld: (/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.DESTROYED_StartLine1_C_CHILDACTOR_1338.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2022.09.29-00.05.58:460][207]LogActorComponent: RegisterComponentWithWorld: (/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.DESTROYED_StartLine1_C_CHILDACTOR_1342.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2022.09.29-00.06.00:936][468]LogActorComponent: RegisterComponentWithWorld: (/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.DESTROYED_StartLine1_C_CHILDACTOR_1346.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2022.09.29-00.06.03:564][754]LogActorComponent: RegisterComponentWithWorld: (/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.DESTROYED_StartLine1_C_CHILDACTOR_1350.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2022.09.29-00.06.08:119][200]LogActorComponent: RegisterComponentWithWorld: (/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.DESTROYED_StartLine1_C_CHILDACTOR_1354.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2022.09.29-00.06.09:179][317]BlueprintLog: New page: Compile StartLine1
+[2022.09.29-00.06.09:832][317]LogUObjectHash: Compacting FUObjectHashTables data took   5.59ms
+[2022.09.29-00.06.09:857][317]LogActorComponent: RegisterComponentWithWorld: (/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.DESTROYED_StartLine1_C_CHILDACTOR_1356.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2022.09.29-00.06.09:879][317]LogSpawn: Warning: SpawnActor failed because we are running a ConstructionScript (Car_RunOverGame_C)
+[2022.09.29-00.06.09:879][317]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue
+	Track01_C /Engine/Transient.World_0:PersistentLevel.Track01_C_0
+	Function /Game/_LevelsTracks_Gates/Track01.Track01_C:Move Player Start to Beginning:03FE
+[2022.09.29-00.06.09:903][317]LogActorComponent: RegisterComponentWithWorld: (/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.DESTROYED_StartLine1_C_CHILDACTOR_1360.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2022.09.29-00.06.09:924][317]LogSpawn: Warning: SpawnActor failed because we are running a ConstructionScript (Car_RunOverGame_C)
+[2022.09.29-00.06.09:924][317]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue
+	Track01_C /Engine/Transient.World_0:PersistentLevel.Track01_C_0
+	Function /Game/_LevelsTracks_Gates/Track01.Track01_C:Move Player Start to Beginning:03FE
+[2022.09.29-00.06.10:104][317]LogSavePackage: Moving 'C:/Users/spard/Documents/GitHub/CarGame/CarGateGame01/CarGateGame/Saved/StartLine15BE216E54FB0B905863082BD1B0C05A3.tmp' to 'C:/Users/spard/Documents/GitHub/CarGame/CarGateGame01/CarGateGame/Content/_LevelsTracks_Gates/Gates/StartLine1.uasset'
+[2022.09.29-00.06.10:124][317]AssetCheck: New page: Asset Save: StartLine1
+[2022.09.29-00.06.10:124][317]LogContentValidation: Display: Validating Blueprint /Game/_LevelsTracks_Gates/Gates/StartLine1.StartLine1
+[2022.09.29-00.06.32:223][688]LogActorComponent: RegisterComponentWithWorld: (/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.DESTROYED_StartLine1_C_CHILDACTOR_1364.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2022.09.29-00.07.15:619][377]BlueprintLog: New page: Compile StartLine1
+[2022.09.29-00.07.15:706][377]LogUObjectHash: Compacting FUObjectHashTables data took   3.20ms
+[2022.09.29-00.07.15:734][377]LogActorComponent: RegisterComponentWithWorld: (/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.DESTROYED_StartLine1_C_CHILDACTOR_1366.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2022.09.29-00.07.15:777][377]LogSpawn: Warning: SpawnActor failed because we are running a ConstructionScript (Car_RunOverGame_C)
+[2022.09.29-00.07.15:806][377]LogActorComponent: RegisterComponentWithWorld: (/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.DESTROYED_StartLine1_C_CHILDACTOR_1370.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2022.09.29-00.07.15:827][377]LogSpawn: Warning: SpawnActor failed because we are running a ConstructionScript (Car_RunOverGame_C)
+[2022.09.29-00.07.16:281][410]LogSavePackage: Moving 'C:/Users/spard/Documents/GitHub/CarGame/CarGateGame01/CarGateGame/Saved/StartLine13AF4F7874A2FCACCCE6E09AC9E55F6B4.tmp' to 'C:/Users/spard/Documents/GitHub/CarGame/CarGateGame01/CarGateGame/Content/_LevelsTracks_Gates/Gates/StartLine1.uasset'
+[2022.09.29-00.07.16:297][410]AssetCheck: New page: Asset Save: StartLine1
+[2022.09.29-00.07.16:297][410]LogContentValidation: Display: Validating Blueprint /Game/_LevelsTracks_Gates/Gates/StartLine1.StartLine1
+[2022.09.29-00.07.26:974][520]LogSpawn: Warning: SpawnActor failed because we are running a ConstructionScript (Car_RunOverGame_C)
+[2022.09.29-00.07.45:881][563]BlueprintLog: New page: Compile StartLine1
+[2022.09.29-00.07.45:974][563]LogUObjectHash: Compacting FUObjectHashTables data took   3.14ms
+[2022.09.29-00.07.46:002][563]LogActorComponent: RegisterComponentWithWorld: (/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.DESTROYED_StartLine1_C_CHILDACTOR_1380.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2022.09.29-00.07.46:041][563]LogSpawn: Warning: SpawnActor failed because we are running a ConstructionScript (Car_RunOverGame_C)
+[2022.09.29-00.07.46:069][563]LogActorComponent: RegisterComponentWithWorld: (/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.DESTROYED_StartLine1_C_CHILDACTOR_1384.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2022.09.29-00.07.46:091][563]LogSpawn: Warning: SpawnActor failed because we are running a ConstructionScript (Car_RunOverGame_C)
+[2022.09.29-00.07.56:419][653]LogSavePackage: Moving 'C:/Users/spard/Documents/GitHub/CarGame/CarGateGame01/CarGateGame/Saved/StartLine1B13B42C64EAEB1CBEAA202ADF0C795BC.tmp' to 'C:/Users/spard/Documents/GitHub/CarGame/CarGateGame01/CarGateGame/Content/_LevelsTracks_Gates/Gates/StartLine1.uasset'
+[2022.09.29-00.07.56:434][653]AssetCheck: New page: Asset Save: StartLine1
+[2022.09.29-00.07.56:434][653]LogContentValidation: Display: Validating Blueprint /Game/_LevelsTracks_Gates/Gates/StartLine1.StartLine1
+[2022.09.29-00.08.09:180][932]LogSpawn: Warning: SpawnActor failed because we are running a ConstructionScript (Car_RunOverGame_C)
+[2022.09.29-00.08.24:437][540]BlueprintLog: New page: Compile StartLine1
+[2022.09.29-00.08.24:597][540]LogUObjectHash: Compacting FUObjectHashTables data took   3.37ms
+[2022.09.29-00.08.24:625][540]LogActorComponent: RegisterComponentWithWorld: (/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.DESTROYED_StartLine1_C_CHILDACTOR_1394.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2022.09.29-00.08.24:649][540]LogSpawn: Warning: SpawnActor failed because we are running a ConstructionScript (Car_RunOverGame_C)
+[2022.09.29-00.08.24:676][540]LogActorComponent: RegisterComponentWithWorld: (/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.DESTROYED_StartLine1_C_CHILDACTOR_1398.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2022.09.29-00.08.24:697][540]LogSpawn: Warning: SpawnActor failed because we are running a ConstructionScript (Car_RunOverGame_C)
+[2022.09.29-00.08.28:934][983]BlueprintLog: New page: Compile StartLine1
+[2022.09.29-00.08.29:027][983]LogUObjectHash: Compacting FUObjectHashTables data took   3.14ms
+[2022.09.29-00.08.29:056][983]LogActorComponent: RegisterComponentWithWorld: (/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.DESTROYED_StartLine1_C_CHILDACTOR_1402.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2022.09.29-00.08.29:080][983]LogSpawn: Warning: SpawnActor failed because we are running a ConstructionScript (Car_RunOverGame_C)
+[2022.09.29-00.08.29:108][983]LogActorComponent: RegisterComponentWithWorld: (/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.DESTROYED_StartLine1_C_CHILDACTOR_1406.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2022.09.29-00.08.29:130][983]LogSpawn: Warning: SpawnActor failed because we are running a ConstructionScript (Car_RunOverGame_C)
+[2022.09.29-00.08.30:554][122]LogSpawn: Warning: SpawnActor failed because we are running a ConstructionScript (Car_RunOverGame_C)
+[2022.09.29-00.08.34:924][566]BlueprintLog: New page: Compile StartLine1
+[2022.09.29-00.08.35:026][566]LogUObjectHash: Compacting FUObjectHashTables data took   3.26ms
+[2022.09.29-00.08.35:056][566]LogActorComponent: RegisterComponentWithWorld: (/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.DESTROYED_StartLine1_C_CHILDACTOR_1410.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2022.09.29-00.08.35:084][566]LogSpawn: Warning: SpawnActor failed because we are running a ConstructionScript (Car_RunOverGame_C)
+[2022.09.29-00.08.35:116][566]LogActorComponent: RegisterComponentWithWorld: (/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.DESTROYED_StartLine1_C_CHILDACTOR_1414.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2022.09.29-00.08.35:138][566]LogSpawn: Warning: SpawnActor failed because we are running a ConstructionScript (Car_RunOverGame_C)
+[2022.09.29-00.08.46:972][771]BlueprintLog: New page: Compile StartLine1
+[2022.09.29-00.08.47:066][771]LogUObjectHash: Compacting FUObjectHashTables data took   3.46ms
+[2022.09.29-00.08.47:094][771]LogActorComponent: RegisterComponentWithWorld: (/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.DESTROYED_StartLine1_C_CHILDACTOR_1420.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2022.09.29-00.08.47:122][771]LogSpawn: Warning: SpawnActor failed because we are running a ConstructionScript (Car_RunOverGame_C)
+[2022.09.29-00.08.47:150][771]LogActorComponent: RegisterComponentWithWorld: (/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.DESTROYED_StartLine1_C_CHILDACTOR_1424.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2022.09.29-00.08.47:173][771]LogSpawn: Warning: SpawnActor failed because we are running a ConstructionScript (Car_RunOverGame_C)
+[2022.09.29-00.08.55:156][601]LogActorComponent: RegisterComponentWithWorld: (/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.DESTROYED_StartLine1_C_CHILDACTOR_1430.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2022.09.29-00.08.58:506][969]LogActorComponent: RegisterComponentWithWorld: (/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.DESTROYED_StartLine1_C_CHILDACTOR_1434.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2022.09.29-00.08.59:191][ 29]LogActorComponent: RegisterComponentWithWorld: (/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.DESTROYED_StartLine1_C_CHILDACTOR_1438.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2022.09.29-00.08.59:922][102]LogActorComponent: RegisterComponentWithWorld: (/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.DESTROYED_StartLine1_C_CHILDACTOR_1442.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2022.09.29-00.09.03:426][490]LogActorComponent: RegisterComponentWithWorld: (/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.DESTROYED_StartLine1_C_CHILDACTOR_1446.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2022.09.29-00.09.07:343][928]BlueprintLog: New page: Compile StartLine1
+[2022.09.29-00.09.07:456][928]LogUObjectHash: Compacting FUObjectHashTables data took   3.24ms
+[2022.09.29-00.09.07:484][928]LogActorComponent: RegisterComponentWithWorld: (/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.DESTROYED_StartLine1_C_CHILDACTOR_1448.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2022.09.29-00.09.07:508][928]LogSpawn: Warning: SpawnActor failed because we are running a ConstructionScript (Car_RunOverGame_C)
+[2022.09.29-00.09.07:536][928]LogActorComponent: RegisterComponentWithWorld: (/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.DESTROYED_StartLine1_C_CHILDACTOR_1452.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2022.09.29-00.09.07:558][928]LogSpawn: Warning: SpawnActor failed because we are running a ConstructionScript (Car_RunOverGame_C)
+[2022.09.29-00.09.15:996][800]BlueprintLog: New page: Compile StartLine1
+[2022.09.29-00.09.16:101][800]LogUObjectHash: Compacting FUObjectHashTables data took   3.41ms
+[2022.09.29-00.09.16:128][800]LogActorComponent: RegisterComponentWithWorld: (/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.DESTROYED_StartLine1_C_CHILDACTOR_1456.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2022.09.29-00.09.16:152][800]LogSpawn: Warning: SpawnActor failed because we are running a ConstructionScript (Car_RunOverGame_C)
+[2022.09.29-00.09.16:180][800]LogActorComponent: RegisterComponentWithWorld: (/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.DESTROYED_StartLine1_C_CHILDACTOR_1460.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2022.09.29-00.09.16:203][800]LogSpawn: Warning: SpawnActor failed because we are running a ConstructionScript (Car_RunOverGame_C)
+[2022.09.29-00.09.26:741][876]LogActorComponent: RegisterComponentWithWorld: (/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.DESTROYED_StartLine1_C_CHILDACTOR_1466.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2022.09.29-00.09.26:743][876]LogSlate: Window 'Color Picker' being destroyed
+[2022.09.29-00.09.27:904][  5]BlueprintLog: New page: Compile StartLine1
+[2022.09.29-00.09.28:009][  5]LogUObjectHash: Compacting FUObjectHashTables data took   3.14ms
+[2022.09.29-00.09.28:041][  5]LogActorComponent: RegisterComponentWithWorld: (/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.DESTROYED_StartLine1_C_CHILDACTOR_1468.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2022.09.29-00.09.28:067][  5]LogSpawn: Warning: SpawnActor failed because we are running a ConstructionScript (Car_RunOverGame_C)
+[2022.09.29-00.09.28:096][  5]LogActorComponent: RegisterComponentWithWorld: (/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.DESTROYED_StartLine1_C_CHILDACTOR_1472.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2022.09.29-00.09.28:119][  5]LogSpawn: Warning: SpawnActor failed because we are running a ConstructionScript (Car_RunOverGame_C)
+[2022.09.29-00.09.48:815][ 91]LogActorComponent: RegisterComponentWithWorld: (/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.DESTROYED_StartLine1_C_CHILDACTOR_1478.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2022.09.29-00.09.48:817][ 91]LogSlate: Window 'Color Picker' being destroyed
+[2022.09.29-00.09.49:786][193]BlueprintLog: New page: Compile StartLine1
+[2022.09.29-00.09.49:970][193]LogUObjectHash: Compacting FUObjectHashTables data took   3.49ms
+[2022.09.29-00.09.49:995][193]LogActorComponent: RegisterComponentWithWorld: (/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.DESTROYED_StartLine1_C_CHILDACTOR_1480.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2022.09.29-00.09.50:019][193]LogSpawn: Warning: SpawnActor failed because we are running a ConstructionScript (Car_RunOverGame_C)
+[2022.09.29-00.09.50:045][193]LogActorComponent: RegisterComponentWithWorld: (/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.DESTROYED_StartLine1_C_CHILDACTOR_1484.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2022.09.29-00.09.50:067][193]LogSpawn: Warning: SpawnActor failed because we are running a ConstructionScript (Car_RunOverGame_C)
+[2022.09.29-00.09.50:487][221]LogSavePackage: Moving 'C:/Users/spard/Documents/GitHub/CarGame/CarGateGame01/CarGateGame/Saved/StartLine1BDA4D24D44BBB3D9926C8AB8123EEABC.tmp' to 'C:/Users/spard/Documents/GitHub/CarGame/CarGateGame01/CarGateGame/Content/_LevelsTracks_Gates/Gates/StartLine1.uasset'
+[2022.09.29-00.09.50:518][221]AssetCheck: New page: Asset Save: StartLine1
+[2022.09.29-00.09.50:518][221]LogContentValidation: Display: Validating Blueprint /Game/_LevelsTracks_Gates/Gates/StartLine1.StartLine1
+[2022.09.29-00.10.04:246][682]LogSavePackage: Moving 'C:/Users/spard/Documents/GitHub/CarGame/CarGateGame01/CarGateGame/Saved/StartLine1BC001E314733C97C83934F8992EE0127.tmp' to 'C:/Users/spard/Documents/GitHub/CarGame/CarGateGame01/CarGateGame/Content/_LevelsTracks_Gates/Gates/StartLine1.uasset'
+[2022.09.29-00.10.04:280][682]AssetCheck: New page: Asset Save: StartLine1
+[2022.09.29-00.10.04:280][682]LogContentValidation: Display: Validating Blueprint /Game/_LevelsTracks_Gates/Gates/StartLine1.StartLine1
+[2022.09.29-00.10.09:337][227]LogSavePackage: Moving 'C:/Users/spard/Documents/GitHub/CarGame/CarGateGame01/CarGateGame/Saved/StartLine1407B133046DE1983B761EC966CED6D3A.tmp' to 'C:/Users/spard/Documents/GitHub/CarGame/CarGateGame01/CarGateGame/Content/_LevelsTracks_Gates/Gates/StartLine1.uasset'
+[2022.09.29-00.10.09:352][227]AssetCheck: New page: Asset Save: StartLine1
+[2022.09.29-00.10.09:352][227]LogContentValidation: Display: Validating Blueprint /Game/_LevelsTracks_Gates/Gates/StartLine1.StartLine1
+[2022.09.29-00.10.14:054][703]LogSavePackage: Moving 'C:/Users/spard/Documents/GitHub/CarGame/CarGateGame01/CarGateGame/Saved/StartLine146703181435010B9BA4BCCB31BC9451C.tmp' to 'C:/Users/spard/Documents/GitHub/CarGame/CarGateGame01/CarGateGame/Content/_LevelsTracks_Gates/Gates/StartLine1.uasset'
+[2022.09.29-00.10.14:068][703]AssetCheck: New page: Asset Save: StartLine1
+[2022.09.29-00.10.14:068][703]LogContentValidation: Display: Validating Blueprint /Game/_LevelsTracks_Gates/Gates/StartLine1.StartLine1
+[2022.09.29-00.10.19:441][262]LogSavePackage: Moving 'C:/Users/spard/Documents/GitHub/CarGame/CarGateGame01/CarGateGame/Saved/StartLine1D9ABEBA341453E18FEFEBF9116333F3F.tmp' to 'C:/Users/spard/Documents/GitHub/CarGame/CarGateGame01/CarGateGame/Content/_LevelsTracks_Gates/Gates/StartLine1.uasset'
+[2022.09.29-00.10.19:455][262]AssetCheck: New page: Asset Save: StartLine1
+[2022.09.29-00.10.19:455][262]LogContentValidation: Display: Validating Blueprint /Game/_LevelsTracks_Gates/Gates/StartLine1.StartLine1
+[2022.09.29-00.10.23:020][610]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2022.09.29-00.10.23:040][610]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.09.29-00.10.23:040][610]PIE: New page: PIE session: VehicleExampleMap (Sep 28, 2022, 6:10:23 PM)
+[2022.09.29-00.10.23:041][610]LogPlayLevel: Creating play world package: /Game/VehicleBP/Maps/UEDPIE_0_VehicleExampleMap
+[2022.09.29-00.10.23:068][610]LogPlayLevel: PIE: StaticDuplicateObject took: (0.027045s)
+[2022.09.29-00.10.23:069][610]LogAIModule: Creating AISystem for world VehicleExampleMap
+[2022.09.29-00.10.23:069][610]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000211EF9CF400), frame # 59610
+[2022.09.29-00.10.23:069][610]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000211EF8F07C0), frame # 59610
+[2022.09.29-00.10.23:070][610]LogPlayLevel: PIE: World Init took: (0.001772s)
+[2022.09.29-00.10.23:070][610]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap to /Game/VehicleBP/Maps/UEDPIE_0_VehicleExampleMap.VehicleExampleMap (0.028997s)
+[2022.09.29-00.10.23:111][610]LogUObjectHash: Compacting FUObjectHashTables data took   3.00ms
+[2022.09.29-00.10.23:116][610]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.09.29-00.10.23:116][610]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.09.29-00.10.23:116][610]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.09.29-00.10.23:116][610]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.09.29-00.10.23:116][610]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.09.29-00.10.23:116][610]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.09.29-00.10.23:116][610]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.09.29-00.10.23:116][610]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.09.29-00.10.23:116][610]LogAudio: Display: Using built-in audio occlusion.
+[2022.09.29-00.10.23:116][610]LogAudioMixer: Display: Initializing audio mixer.
+[2022.09.29-00.10.23:122][610]LogAudioMixer: Display: 0: FrontLeft
+[2022.09.29-00.10.23:122][610]LogAudioMixer: Display: 1: FrontRight
+[2022.09.29-00.10.23:141][610]LogAudioMixer: Display: Using Audio Device FHX2300 (NVIDIA High Definition Audio)
+[2022.09.29-00.10.23:141][610]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.09.29-00.10.23:141][610]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.09.29-00.10.23:141][610]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.09.29-00.10.23:142][610]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.09.29-00.10.23:158][610]LogInit: FAudioDevice initialized.
+[2022.09.29-00.10.23:203][610]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.29-00.10.23:203][610]LogLoad: Game class is 'VehicleGameMode_C'
+[2022.09.29-00.10.23:218][610]LogWorld: Bringing World /Game/VehicleBP/Maps/UEDPIE_0_VehicleExampleMap.VehicleExampleMap up for play (max tick rate 0) at 2022.09.28-21.10.23
+[2022.09.29-00.10.23:219][610]LogWorld: Bringing up level for play took: 0.013299
+[2022.09.29-00.10.23:219][610]LogOnline: OSS: Creating online subsystem instance for: :Context_10
+[2022.09.29-00.10.23:249][610]LogSlate: WidgetSwitcher ('None') active index changed to 3
+[2022.09.29-00.10.23:253][610]LogBlueprintUserMessages: [Track01_C_0] level 0
+[2022.09.29-00.10.23:253][610]LogBlueprintUserMessages: [Track01_C_0] 2
+[2022.09.29-00.10.23:273][610]PIE: Server logged in
+[2022.09.29-00.10.23:274][610]PIE: Play in editor total start time 0.234 seconds.
+[2022.09.29-00.10.25:019][763]LogSlate: WidgetSwitcher ('None') active index changed to 0
+[2022.09.29-00.10.25:125][769]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.29-00.10.25:125][769]LogWorld: BeginTearingDown for /Game/VehicleBP/Maps/UEDPIE_0_VehicleExampleMap
+[2022.09.29-00.10.25:126][769]LogSlate: Window 'HorseGame Preview [NetMode: Standalone] (64-bit/Windows) ' being destroyed
+[2022.09.29-00.10.25:132][769]LogWorld: UWorld::CleanupWorld for VehicleExampleMap, bSessionEnded=true, bCleanupResources=true
+[2022.09.29-00.10.25:136][769]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.29-00.10.25:145][769]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.09.29-00.10.25:149][769]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.29-00.10.25:213][769]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000211EF8F07C0), frame # 59769
+[2022.09.29-00.10.25:213][769]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (00000211EF9CF400), frame # 59769
+[2022.09.29-00.10.25:217][769]LogUObjectHash: Compacting FUObjectHashTables data took   2.47ms
+[2022.09.29-00.10.25:257][770]LogPlayLevel: Display: Destroying online subsystem :Context_10
+[2022.09.29-00.10.35:683][845]LogActorComponent: RegisterComponentWithWorld: (/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.DESTROYED_StartLine1_C_CHILDACTOR_1500.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2022.09.29-00.10.38:831][198]BlueprintLog: New page: Compile StartLine1
+[2022.09.29-00.10.38:944][198]LogUObjectHash: Compacting FUObjectHashTables data took   2.82ms
+[2022.09.29-00.10.38:973][198]LogActorComponent: RegisterComponentWithWorld: (/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.DESTROYED_StartLine1_C_CHILDACTOR_1502.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2022.09.29-00.10.38:997][198]LogSpawn: Warning: SpawnActor failed because we are running a ConstructionScript (Car_RunOverGame_C)
+[2022.09.29-00.10.39:024][198]LogActorComponent: RegisterComponentWithWorld: (/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.DESTROYED_StartLine1_C_CHILDACTOR_1506.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2022.09.29-00.10.39:047][198]LogSpawn: Warning: SpawnActor failed because we are running a ConstructionScript (Car_RunOverGame_C)
+[2022.09.29-00.10.40:047][285]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2022.09.29-00.10.40:068][285]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.09.29-00.10.40:068][285]PIE: New page: PIE session: VehicleExampleMap (Sep 28, 2022, 6:10:40 PM)
+[2022.09.29-00.10.40:069][285]LogPlayLevel: Creating play world package: /Game/VehicleBP/Maps/UEDPIE_0_VehicleExampleMap
+[2022.09.29-00.10.40:094][285]LogPlayLevel: PIE: StaticDuplicateObject took: (0.025702s)
+[2022.09.29-00.10.40:096][285]LogAIModule: Creating AISystem for world VehicleExampleMap
+[2022.09.29-00.10.40:096][285]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002125D205400), frame # 61285
+[2022.09.29-00.10.40:096][285]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000002125D2AB740), frame # 61285
+[2022.09.29-00.10.40:096][285]LogPlayLevel: PIE: World Init took: (0.001628s)
+[2022.09.29-00.10.40:096][285]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap to /Game/VehicleBP/Maps/UEDPIE_0_VehicleExampleMap.VehicleExampleMap (0.027483s)
+[2022.09.29-00.10.40:134][285]LogUObjectHash: Compacting FUObjectHashTables data took   3.62ms
+[2022.09.29-00.10.40:136][285]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.09.29-00.10.40:136][285]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.09.29-00.10.40:136][285]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.09.29-00.10.40:136][285]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.09.29-00.10.40:136][285]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.09.29-00.10.40:136][285]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.09.29-00.10.40:136][285]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.09.29-00.10.40:136][285]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.09.29-00.10.40:137][285]LogAudio: Display: Using built-in audio occlusion.
+[2022.09.29-00.10.40:137][285]LogAudioMixer: Display: Initializing audio mixer.
+[2022.09.29-00.10.40:142][285]LogAudioMixer: Display: 0: FrontLeft
+[2022.09.29-00.10.40:143][285]LogAudioMixer: Display: 1: FrontRight
+[2022.09.29-00.10.40:162][285]LogAudioMixer: Display: Using Audio Device FHX2300 (NVIDIA High Definition Audio)
+[2022.09.29-00.10.40:162][285]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.09.29-00.10.40:162][285]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.09.29-00.10.40:162][285]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.09.29-00.10.40:163][285]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.09.29-00.10.40:178][285]LogInit: FAudioDevice initialized.
+[2022.09.29-00.10.40:235][285]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.29-00.10.40:235][285]LogLoad: Game class is 'VehicleGameMode_C'
+[2022.09.29-00.10.40:251][285]LogWorld: Bringing World /Game/VehicleBP/Maps/UEDPIE_0_VehicleExampleMap.VehicleExampleMap up for play (max tick rate 0) at 2022.09.28-21.10.40
+[2022.09.29-00.10.40:252][285]LogWorld: Bringing up level for play took: 0.013428
+[2022.09.29-00.10.40:252][285]LogOnline: OSS: Creating online subsystem instance for: :Context_11
+[2022.09.29-00.10.40:253][285]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2022.09.29-00.10.40:279][285]LogSlate: WidgetSwitcher ('None') active index changed to 3
+[2022.09.29-00.10.40:283][285]LogBlueprintUserMessages: [Track01_C_0] level 0
+[2022.09.29-00.10.40:283][285]LogBlueprintUserMessages: [Track01_C_0] 2
+[2022.09.29-00.10.40:305][285]PIE: Server logged in
+[2022.09.29-00.10.40:305][285]PIE: Play in editor total start time 0.237 seconds.
+[2022.09.29-00.10.41:805][434]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.29-00.10.41:805][434]LogWorld: BeginTearingDown for /Game/VehicleBP/Maps/UEDPIE_0_VehicleExampleMap
+[2022.09.29-00.10.41:806][434]LogSlate: Window 'HorseGame Preview [NetMode: Standalone] (64-bit/Windows) ' being destroyed
+[2022.09.29-00.10.41:810][434]LogWorld: UWorld::CleanupWorld for VehicleExampleMap, bSessionEnded=true, bCleanupResources=true
+[2022.09.29-00.10.41:813][434]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.29-00.10.41:820][434]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.09.29-00.10.41:824][434]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.29-00.10.41:871][434]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000002125D2AB740), frame # 61434
+[2022.09.29-00.10.41:871][434]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000002125D205400), frame # 61434
+[2022.09.29-00.10.41:875][434]LogUObjectHash: Compacting FUObjectHashTables data took   2.21ms
+[2022.09.29-00.10.41:911][435]LogPlayLevel: Display: Destroying online subsystem :Context_11
+[2022.09.29-00.10.46:843][975]LogActorComponent: RegisterComponentWithWorld: (/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.DESTROYED_StartLine1_C_CHILDACTOR_1512.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2022.09.29-00.10.51:003][429]LogActorComponent: RegisterComponentWithWorld: (/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.DESTROYED_StartLine1_C_CHILDACTOR_1516.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2022.09.29-00.11.03:124][757]LogAssetEditorSubsystem: Opening Asset editor for Font /Engine/EngineFonts/RobotoDistanceField.RobotoDistanceField
+[2022.09.29-00.11.12:193][552]LogAssetEditorSubsystem: Opening Asset editor for Font /Engine/EngineFonts/DroidSansMono.DroidSansMono
+[2022.09.29-00.11.34:158][903]LogAssetEditorSubsystem: Opening Asset editor for FontFace /Game/FONT/2020_OUTLINE_FORTUNE_KEI.2020_OUTLINE_FORTUNE_KEI
+[2022.09.29-00.11.37:187][227]LogAssetEditorSubsystem: Opening Asset editor for Font /Game/FONT/2020_OUTLINE_FORTUNE_KEI_Font.2020_OUTLINE_FORTUNE_KEI_Font
+[2022.09.29-00.11.50:036][720]BlueprintLog: New page: Compile StartLine1
+[2022.09.29-00.11.50:169][720]LogUObjectHash: Compacting FUObjectHashTables data took   6.11ms
+[2022.09.29-00.11.50:197][720]LogActorComponent: RegisterComponentWithWorld: (/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.DESTROYED_StartLine1_C_CHILDACTOR_1518.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2022.09.29-00.11.50:221][720]LogSpawn: Warning: SpawnActor failed because we are running a ConstructionScript (Car_RunOverGame_C)
+[2022.09.29-00.11.50:250][720]LogActorComponent: RegisterComponentWithWorld: (/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.DESTROYED_StartLine1_C_CHILDACTOR_1522.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2022.09.29-00.11.50:271][720]LogSpawn: Warning: SpawnActor failed because we are running a ConstructionScript (Car_RunOverGame_C)
+[2022.09.29-00.11.50:805][765]LogSavePackage: Moving 'C:/Users/spard/Documents/GitHub/CarGame/CarGateGame01/CarGateGame/Saved/StartLine141109DC24B05E1925941BF9FDEFD5338.tmp' to 'C:/Users/spard/Documents/GitHub/CarGame/CarGateGame01/CarGateGame/Content/_LevelsTracks_Gates/Gates/StartLine1.uasset'
+[2022.09.29-00.11.50:820][765]AssetCheck: New page: Asset Save: StartLine1
+[2022.09.29-00.11.50:820][765]LogContentValidation: Display: Validating Blueprint /Game/_LevelsTracks_Gates/Gates/StartLine1.StartLine1
+[2022.09.29-00.11.58:587][648]LogSpawn: Warning: SpawnActor failed because we are running a ConstructionScript (Car_RunOverGame_C)
+[2022.09.29-00.12.03:121][144]BlueprintLog: New page: Compile StartLine1
+[2022.09.29-00.12.03:243][144]LogUObjectHash: Compacting FUObjectHashTables data took   4.31ms
+[2022.09.29-00.12.03:277][144]LogActorComponent: RegisterComponentWithWorld: (/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.DESTROYED_StartLine1_C_CHILDACTOR_1526.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2022.09.29-00.12.03:303][144]LogSpawn: Warning: SpawnActor failed because we are running a ConstructionScript (Car_RunOverGame_C)
+[2022.09.29-00.12.03:332][144]LogActorComponent: RegisterComponentWithWorld: (/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.DESTROYED_StartLine1_C_CHILDACTOR_1530.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2022.09.29-00.12.03:353][144]LogSpawn: Warning: SpawnActor failed because we are running a ConstructionScript (Car_RunOverGame_C)
+[2022.09.29-00.12.04:023][210]LogEditorTransaction: Undo Modify Component(s)
+[2022.09.29-00.12.05:483][336]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2022.09.29-00.12.05:507][336]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.09.29-00.12.05:507][336]PIE: New page: PIE session: VehicleExampleMap (Sep 28, 2022, 6:12:05 PM)
+[2022.09.29-00.12.05:507][336]LogPlayLevel: Creating play world package: /Game/VehicleBP/Maps/UEDPIE_0_VehicleExampleMap
+[2022.09.29-00.12.05:529][336]LogPlayLevel: PIE: StaticDuplicateObject took: (0.022562s)
+[2022.09.29-00.12.05:531][336]LogAIModule: Creating AISystem for world VehicleExampleMap
+[2022.09.29-00.12.05:531][336]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002125AB27E00), frame # 70336
+[2022.09.29-00.12.05:531][336]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000212175D8400), frame # 70336
+[2022.09.29-00.12.05:531][336]LogPlayLevel: PIE: World Init took: (0.001937s)
+[2022.09.29-00.12.05:531][336]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap to /Game/VehicleBP/Maps/UEDPIE_0_VehicleExampleMap.VehicleExampleMap (0.024665s)
+[2022.09.29-00.12.05:571][336]LogUObjectHash: Compacting FUObjectHashTables data took   3.90ms
+[2022.09.29-00.12.05:574][336]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.09.29-00.12.05:574][336]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.09.29-00.12.05:574][336]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.09.29-00.12.05:574][336]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.09.29-00.12.05:574][336]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.09.29-00.12.05:574][336]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.09.29-00.12.05:574][336]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.09.29-00.12.05:574][336]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.09.29-00.12.05:574][336]LogAudio: Display: Using built-in audio occlusion.
+[2022.09.29-00.12.05:574][336]LogAudioMixer: Display: Initializing audio mixer.
+[2022.09.29-00.12.05:579][336]LogAudioMixer: Display: 0: FrontLeft
+[2022.09.29-00.12.05:579][336]LogAudioMixer: Display: 1: FrontRight
+[2022.09.29-00.12.05:640][336]LogAudioMixer: Display: Using Audio Device FHX2300 (NVIDIA High Definition Audio)
+[2022.09.29-00.12.05:640][336]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.09.29-00.12.05:640][336]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.09.29-00.12.05:640][336]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.09.29-00.12.05:641][336]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.09.29-00.12.05:657][336]LogInit: FAudioDevice initialized.
+[2022.09.29-00.12.05:701][336]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.29-00.12.05:701][336]LogLoad: Game class is 'VehicleGameMode_C'
+[2022.09.29-00.12.05:717][336]LogWorld: Bringing World /Game/VehicleBP/Maps/UEDPIE_0_VehicleExampleMap.VehicleExampleMap up for play (max tick rate 0) at 2022.09.28-21.12.05
+[2022.09.29-00.12.05:717][336]LogWorld: Bringing up level for play took: 0.013455
+[2022.09.29-00.12.05:717][336]LogOnline: OSS: Creating online subsystem instance for: :Context_12
+[2022.09.29-00.12.05:719][336]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2022.09.29-00.12.05:745][336]LogSlate: WidgetSwitcher ('None') active index changed to 3
+[2022.09.29-00.12.05:749][336]LogBlueprintUserMessages: [Track01_C_0] level 0
+[2022.09.29-00.12.05:750][336]LogBlueprintUserMessages: [Track01_C_0] 2
+[2022.09.29-00.12.05:768][336]PIE: Server logged in
+[2022.09.29-00.12.05:768][336]PIE: Play in editor total start time 0.262 seconds.
+[2022.09.29-00.12.07:325][509]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.29-00.12.07:325][509]LogWorld: BeginTearingDown for /Game/VehicleBP/Maps/UEDPIE_0_VehicleExampleMap
+[2022.09.29-00.12.07:325][509]LogSlate: Window 'HorseGame Preview [NetMode: Standalone] (64-bit/Windows) ' being destroyed
+[2022.09.29-00.12.07:331][509]LogWorld: UWorld::CleanupWorld for VehicleExampleMap, bSessionEnded=true, bCleanupResources=true
+[2022.09.29-00.12.07:337][509]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.29-00.12.07:345][509]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.09.29-00.12.07:352][509]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.29-00.12.07:410][509]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000212175D8400), frame # 70509
+[2022.09.29-00.12.07:410][509]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000002125AB27E00), frame # 70509
+[2022.09.29-00.12.07:413][509]LogUObjectHash: Compacting FUObjectHashTables data took   2.95ms
+[2022.09.29-00.12.07:451][510]LogPlayLevel: Display: Destroying online subsystem :Context_12
+[2022.09.29-00.12.12:642][ 79]LogActorComponent: RegisterComponentWithWorld: (/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.DESTROYED_StartLine1_C_CHILDACTOR_1536.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2022.09.29-00.12.17:590][580]LogAssetEditorSubsystem: Opening Asset editor for FontFace /Game/FONT/Peach_Days.Peach_Days
+[2022.09.29-00.12.25:206][449]LogAssetEditorSubsystem: Opening Asset editor for Font /Game/FONT/Peach_Days_Font.Peach_Days_Font
+[2022.09.29-00.12.44:680][104]LogSlate: Window 'Really change the font cache type?' being destroyed
+[2022.09.29-00.12.44:685][104]Message dialog closed, result: Yes, title: Really change the font cache type?, text: Changing the cache type will cause this font to be reinitialized (discarding any existing data).
+
+Are you sure you want to proceed?
+[2022.09.29-00.13.08:376][104]LogFactory: FactoryCreateNew: Font with TrueTypeFontFactory (1 0 )
+[2022.09.29-00.13.08:391][104]LogTTFontImport: OutPutGlyph X=225 Y=1 FontHeight=12 FontWidth=3 Char=0020 U=225 V=2 =Usize=3 VSIze=12
+[2022.09.29-00.13.08:578][104]LogTTFontImport: OutPutGlyph X=15 Y=44 FontHeight=12 FontWidth=3 Char=00a0 U=15 V=45 =Usize=3 VSIze=12
+[2022.09.29-00.13.08:606][104]LogTexture: Display: Building textures: Peach_Days_Font_PageA (AutoDXT, 256X128)
+[2022.09.29-00.13.08:610][104]LogTTFontImport: ImportTrueTypeFont: Total Time 0.22
+[2022.09.29-00.13.08:761][105]LogUObjectHash: Compacting FUObjectHashTables data took   3.16ms
+[2022.09.29-00.13.09:252][105]LogSavePackage: Moving 'C:/Users/spard/Documents/GitHub/CarGame/CarGateGame01/CarGateGame/Saved/VehicleExampleMap_Auto18F97E8B94B8BD9B1FCF652AFED24FDE1.tmp' to 'C:/Users/spard/Documents/GitHub/CarGame/CarGateGame01/CarGateGame/Saved/Autosaves/Game/VehicleBP/Maps/VehicleExampleMap_Auto1.umap'
+[2022.09.29-00.13.09:269][105]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/VehicleBP/Maps/VehicleExampleMap' took 0.542
+[2022.09.29-00.13.09:269][105]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.542
+[2022.09.29-00.13.09:301][105]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FONT/Peach_Days_Font] ([1] browsable assets)...
+[2022.09.29-00.13.09:305][105]OBJ SavePackage:     Rendered thumbnail for [Font /Game/FONT/Peach_Days_Font.Peach_Days_Font]
+[2022.09.29-00.13.09:305][105]OBJ SavePackage: Finished generating thumbnails for package [/Game/FONT/Peach_Days_Font]
+[2022.09.29-00.13.09:317][105]LogSavePackage: Moving 'C:/Users/spard/Documents/GitHub/CarGame/CarGateGame01/CarGateGame/Saved/Peach_Days_Font_Auto1B8EAD6F74005DE6926282881520C9E7D.tmp' to 'C:/Users/spard/Documents/GitHub/CarGame/CarGateGame01/CarGateGame/Saved/Autosaves/Game/FONT/Peach_Days_Font_Auto1.uasset'
+[2022.09.29-00.13.09:497][105]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/_LevelsTracks_Gates/Gates/StartLine1] ([1] browsable assets)...
+[2022.09.29-00.13.09:519][105]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/_LevelsTracks_Gates/Gates/StartLine1.StartLine1]
+[2022.09.29-00.13.09:519][105]OBJ SavePackage: Finished generating thumbnails for package [/Game/_LevelsTracks_Gates/Gates/StartLine1]
+[2022.09.29-00.13.09:572][105]LogSavePackage: Moving 'C:/Users/spard/Documents/GitHub/CarGame/CarGateGame01/CarGateGame/Saved/StartLine1_Auto1A490C7A54B737B70DFD24EB50ED2A089.tmp' to 'C:/Users/spard/Documents/GitHub/CarGame/CarGateGame01/CarGateGame/Saved/Autosaves/Game/_LevelsTracks_Gates/Gates/StartLine1_Auto1.uasset'
+[2022.09.29-00.13.09:615][105]LogFileHelpers: Auto-saving content packages took 0.346
+[2022.09.29-00.13.40:325][442]LogSlate: Window 'Really change the font cache type?' being destroyed
+[2022.09.29-00.13.40:329][442]Message dialog closed, result: Yes, title: Really change the font cache type?, text: Changing the cache type will cause this font to be reinitialized (discarding any existing data).
+
+Are you sure you want to proceed?
+[2022.09.29-00.13.40:329][442]LogFactory: FactoryCreateNew: Font with FontFactory (1 0 )
+[2022.09.29-00.13.40:346][442]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.29-00.13.40:350][443]LogSlate: Took 0.000836 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2022.09.29-00.13.40:353][443]LogSlate: Took 0.000721 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2022.09.29-00.13.44:156][703]LogSlate: Window 'Really change the font cache type?' being destroyed
+[2022.09.29-00.13.44:161][703]Message dialog closed, result: Yes, title: Really change the font cache type?, text: Changing the cache type will cause this font to be reinitialized (discarding any existing data).
+
+Are you sure you want to proceed?
+[2022.09.29-00.14.20:511][703]LogFactory: FactoryCreateNew: Font with TrueTypeFontFactory (1 0 )
+[2022.09.29-00.14.20:517][703]LogSlate: Took 0.002656 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2022.09.29-00.14.20:540][703]LogTTFontImport: OutPutGlyph X=225 Y=1 FontHeight=12 FontWidth=3 Char=0020 U=225 V=2 =Usize=3 VSIze=12
+[2022.09.29-00.14.20:556][703]LogTTFontImport: OutPutGlyph X=15 Y=44 FontHeight=12 FontWidth=3 Char=00a0 U=15 V=45 =Usize=3 VSIze=12
+[2022.09.29-00.14.20:572][703]LogTTFontImport: Warning: A texture named Peach_Days_Font_PageA already exists!
+[2022.09.29-00.14.20:611][703]LogTexture: Display: Building textures: Peach_Days_Font_PageA (AutoDXT, 256X128)
+[2022.09.29-00.14.20:613][703]LogTTFontImport: ImportTrueTypeFont: Total Time 0.08
+[2022.09.29-00.14.26:290][181]LogSlate: Window 'Really change the font cache type?' being destroyed
+[2022.09.29-00.14.26:294][181]Message dialog closed, result: Yes, title: Really change the font cache type?, text: Changing the cache type will cause this font to be reinitialized (discarding any existing data).
+
+Are you sure you want to proceed?
+[2022.09.29-00.14.26:295][181]LogFactory: FactoryCreateNew: Font with FontFactory (1 0 )
+[2022.09.29-00.14.29:256][363]LogSlate: Window 'Really change the font cache type?' being destroyed
+[2022.09.29-00.14.29:262][363]Message dialog closed, result: Yes, title: Really change the font cache type?, text: Changing the cache type will cause this font to be reinitialized (discarding any existing data).
+
+Are you sure you want to proceed?
+[2022.09.29-00.15.10:104][363]LogDesktopPlatform: Warning: Error reading results of font dialog.
+[2022.09.29-00.15.12:347][609]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FONT/Peach_Days_Font" FILE="C:/Users/spard/Documents/GitHub/CarGame/CarGateGame01/CarGateGame/Content/FONT/Peach_Days_Font.uasset" SILENT=true
+[2022.09.29-00.15.12:359][609]LogSavePackage: Moving 'C:/Users/spard/Documents/GitHub/CarGame/CarGateGame01/CarGateGame/Saved/Peach_Days_Font5ED271D24CE652B647AFC0AABA823F91.tmp' to 'C:/Users/spard/Documents/GitHub/CarGame/CarGateGame01/CarGateGame/Content/FONT/Peach_Days_Font.uasset'
+[2022.09.29-00.15.12:395][609]AssetCheck: New page: Asset Save: Peach_Days_Font
+[2022.09.29-00.15.12:395][609]LogContentValidation: Display: Validating Font /Game/FONT/Peach_Days_Font.Peach_Days_Font
+[2022.09.29-00.15.13:801][771]LogSlate: Took 0.002418 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2022.09.29-00.15.13:805][771]LogSlate: Took 0.000152 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2022.09.29-00.23.13:320][955]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\USERS\SPARD\APPDATA\LOCAL\MICROSOFT\WINDOWS\FONTS\METROOL.TTF)
+[2022.09.29-00.23.21:799][955]LogSlate: Window 'Font Face Import Options' being destroyed
+[2022.09.29-00.23.21:803][955]Message dialog closed, result: YesAll, title: Font Face Import Options, text: Would you like to create a new Font asset using the imported Font Face as its default font?
+[2022.09.29-00.23.21:832][955]LogSlate: FontCache flush requested. Reason: UFontFace::PostEditChangeProperty
+[2022.09.29-00.23.21:834][955]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.29-00.23.21:839][955]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\USERS\SPARD\APPDATA\LOCAL\MICROSOFT\WINDOWS\FONTS\KITCHENPOLICE.TTF)
+[2022.09.29-00.23.21:842][955]LogSlate: FontCache flush requested. Reason: UFontFace::PostEditChangeProperty
+[2022.09.29-00.23.21:845][955]LogSlate: Took 0.000220 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2022.09.29-00.23.21:846][955]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.29-00.23.21:852][955]LogSlate: Took 0.000170 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2022.09.29-00.23.21:866][955]LogSlate: Took 0.000227 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2022.09.29-00.23.21:868][955]LogSlate: Took 0.000123 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2022.09.29-00.23.21:876][955]LogSlate: Took 0.000248 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2022.09.29-00.23.21:887][955]LogSlate: Took 0.000107 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2022.09.29-00.23.23:985][144]LogAssetEditorSubsystem: Opening Asset editor for FontFace /Game/FONT/KITCHENPOLICE.KITCHENPOLICE
+[2022.09.29-00.23.30:765][923]LogSlate: Took 0.002372 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2022.09.29-00.23.32:669][119]LogAssetEditorSubsystem: Opening Asset editor for Font /Game/FONT/KITCHENPOLICE_Font.KITCHENPOLICE_Font
+[2022.09.29-00.23.40:992][884]LogSlate: Window 'Really change the font cache type?' being destroyed
+[2022.09.29-00.23.40:997][884]Message dialog closed, result: Yes, title: Really change the font cache type?, text: Changing the cache type will cause this font to be reinitialized (discarding any existing data).
+
+Are you sure you want to proceed?
+[2022.09.29-00.23.56:507][884]LogFactory: FactoryCreateNew: Font with TrueTypeFontFactory (1 0 )
+[2022.09.29-00.23.56:534][884]LogTTFontImport: OutPutGlyph X=161 Y=1 FontHeight=9 FontWidth=5 Char=0020 U=161 V=2 =Usize=5 VSIze=9
+[2022.09.29-00.23.56:626][884]LogTexture: Display: Building textures: KITCHENPOLICE_Font_PageA (AutoDXT, 256X128)
+[2022.09.29-00.23.56:628][884]LogTTFontImport: ImportTrueTypeFont: Total Time 0.10
+[2022.09.29-00.23.56:796][885]LogUObjectHash: Compacting FUObjectHashTables data took   3.44ms
+[2022.09.29-00.23.56:801][885]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/VehicleBP/Maps/VehicleExampleMap' took 0.037
+[2022.09.29-00.23.56:802][885]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/FONT/METROOL] ([1] browsable assets)...
+[2022.09.29-00.23.56:802][885]OBJ SavePackage: Finished generating thumbnails for package [/Game/FONT/METROOL]
+[2022.09.29-00.23.56:802][885]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FONT/METROOL" FILE="C:/Users/spard/Documents/GitHub/CarGame/CarGateGame01/CarGateGame/Saved/Autosaves/Game/FONT/METROOL_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2022.09.29-00.23.56:804][885]LogSavePackage: Moving 'C:/Users/spard/Documents/GitHub/CarGame/CarGateGame01/CarGateGame/Saved/METROOL_Auto2F15C4F6E4390E70DFAD5D9A277289C40.tmp' to 'C:/Users/spard/Documents/GitHub/CarGame/CarGateGame01/CarGateGame/Saved/Autosaves/Game/FONT/METROOL_Auto2.uasset'
+[2022.09.29-00.23.56:806][885]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FONT/METROOL_Font] ([1] browsable assets)...
+[2022.09.29-00.23.56:810][885]OBJ SavePackage:     Rendered thumbnail for [Font /Game/FONT/METROOL_Font.METROOL_Font]
+[2022.09.29-00.23.56:810][885]OBJ SavePackage: Finished generating thumbnails for package [/Game/FONT/METROOL_Font]
+[2022.09.29-00.23.56:814][885]LogSavePackage: Moving 'C:/Users/spard/Documents/GitHub/CarGame/CarGateGame01/CarGateGame/Saved/METROOL_Font_Auto2A039FCA84157BB46A8A91AB3800F389C.tmp' to 'C:/Users/spard/Documents/GitHub/CarGame/CarGateGame01/CarGateGame/Saved/Autosaves/Game/FONT/METROOL_Font_Auto2.uasset'
+[2022.09.29-00.23.56:816][885]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/FONT/KITCHENPOLICE] ([1] browsable assets)...
+[2022.09.29-00.23.56:816][885]OBJ SavePackage: Finished generating thumbnails for package [/Game/FONT/KITCHENPOLICE]
+[2022.09.29-00.23.56:818][885]LogSavePackage: Moving 'C:/Users/spard/Documents/GitHub/CarGame/CarGateGame01/CarGateGame/Saved/KITCHENPOLICE_Auto2E91CE7AB436FEEDFE22D1A882C71C5B8.tmp' to 'C:/Users/spard/Documents/GitHub/CarGame/CarGateGame01/CarGateGame/Saved/Autosaves/Game/FONT/KITCHENPOLICE_Auto2.uasset'
+[2022.09.29-00.23.56:819][885]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FONT/KITCHENPOLICE_Font] ([1] browsable assets)...
+[2022.09.29-00.23.56:821][885]OBJ SavePackage:     Rendered thumbnail for [Font /Game/FONT/KITCHENPOLICE_Font.KITCHENPOLICE_Font]
+[2022.09.29-00.23.56:821][885]OBJ SavePackage: Finished generating thumbnails for package [/Game/FONT/KITCHENPOLICE_Font]
+[2022.09.29-00.23.56:827][885]LogSavePackage: Moving 'C:/Users/spard/Documents/GitHub/CarGame/CarGateGame01/CarGateGame/Saved/KITCHENPOLICE_Font_Auto26E43E1E448D19E0E490D979863C7608B.tmp' to 'C:/Users/spard/Documents/GitHub/CarGame/CarGateGame01/CarGateGame/Saved/Autosaves/Game/FONT/KITCHENPOLICE_Font_Auto2.uasset'
+[2022.09.29-00.23.56:828][885]LogFileHelpers: Auto-saving content packages took 0.027
+[2022.09.29-00.24.10:534][519]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FONT/KITCHENPOLICE_Font" FILE="C:/Users/spard/Documents/GitHub/CarGame/CarGateGame01/CarGateGame/Content/FONT/KITCHENPOLICE_Font.uasset" SILENT=true
+[2022.09.29-00.24.10:586][519]LogSavePackage: Moving 'C:/Users/spard/Documents/GitHub/CarGame/CarGateGame01/CarGateGame/Saved/KITCHENPOLICE_FontBE7A4B874AB5F230D5AE0084A724B5A9.tmp' to 'C:/Users/spard/Documents/GitHub/CarGame/CarGateGame01/CarGateGame/Content/FONT/KITCHENPOLICE_Font.uasset'
+[2022.09.29-00.24.10:631][519]AssetCheck: New page: Asset Save: KITCHENPOLICE_Font
+[2022.09.29-00.24.10:631][519]LogContentValidation: Display: Validating Font /Game/FONT/KITCHENPOLICE_Font.KITCHENPOLICE_Font
+[2022.09.29-00.24.22:922][740]LogActorComponent: RegisterComponentWithWorld: (/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.DESTROYED_StartLine1_C_CHILDACTOR_1540.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2022.09.29-00.24.33:215][892]LogActorComponent: RegisterComponentWithWorld: (/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.DESTROYED_StartLine1_C_CHILDACTOR_1544.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2022.09.29-00.24.37:831][257]LogActorComponent: RegisterComponentWithWorld: (/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.DESTROYED_StartLine1_C_CHILDACTOR_1548.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2022.09.29-00.25.19:122][617]LogActorComponent: RegisterComponentWithWorld: (/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.DESTROYED_StartLine1_C_CHILDACTOR_1552.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2022.09.29-00.25.20:718][784]BlueprintLog: New page: Compile StartLine1
+[2022.09.29-00.25.20:868][784]LogUObjectHash: Compacting FUObjectHashTables data took   3.52ms
+[2022.09.29-00.25.20:900][784]LogActorComponent: RegisterComponentWithWorld: (/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.DESTROYED_StartLine1_C_CHILDACTOR_1554.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2022.09.29-00.25.20:922][784]LogSpawn: Warning: SpawnActor failed because we are running a ConstructionScript (Car_RunOverGame_C)
+[2022.09.29-00.25.20:951][784]LogActorComponent: RegisterComponentWithWorld: (/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.DESTROYED_StartLine1_C_CHILDACTOR_1558.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2022.09.29-00.25.20:971][784]LogSpawn: Warning: SpawnActor failed because we are running a ConstructionScript (Car_RunOverGame_C)
+[2022.09.29-00.25.23:903][ 59]LogAssetEditorSubsystem: Opening Asset editor for Font /Game/FONT/METROOL_Font.METROOL_Font
+[2022.09.29-00.25.27:821][368]LogSlate: Window 'Really change the font cache type?' being destroyed
+[2022.09.29-00.25.27:826][368]Message dialog closed, result: Yes, title: Really change the font cache type?, text: Changing the cache type will cause this font to be reinitialized (discarding any existing data).
+
+Are you sure you want to proceed?
+[2022.09.29-00.25.49:062][368]LogFactory: FactoryCreateNew: Font with TrueTypeFontFactory (1 0 )
+[2022.09.29-00.25.49:085][368]LogTTFontImport: OutPutGlyph X=1 Y=1 FontHeight=10 FontWidth=0 Char=0000 U=1 V=2 =Usize=0 VSIze=10
+[2022.09.29-00.25.49:093][368]LogTTFontImport: OutPutGlyph X=198 Y=1 FontHeight=10 FontWidth=0 Char=001d U=198 V=2 =Usize=0 VSIze=10
+[2022.09.29-00.25.49:094][368]LogTTFontImport: OutPutGlyph X=213 Y=1 FontHeight=10 FontWidth=2 Char=0020 U=213 V=2 =Usize=2 VSIze=10
+[2022.09.29-00.25.49:122][368]LogTTFontImport: OutPutGlyph X=99 Y=42 FontHeight=10 FontWidth=2 Char=00a0 U=99 V=43 =Usize=2 VSIze=10
+[2022.09.29-00.25.49:213][368]LogTexture: Display: Building textures: METROOL_Font_PageA (AutoDXT, 256X128)
+[2022.09.29-00.25.49:215][368]LogTTFontImport: ImportTrueTypeFont: Total Time 0.13
+[2022.09.29-00.25.51:466][612]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FONT/METROOL_Font" FILE="C:/Users/spard/Documents/GitHub/CarGame/CarGateGame01/CarGateGame/Content/FONT/METROOL_Font.uasset" SILENT=true
+[2022.09.29-00.25.51:475][612]LogSavePackage: Moving 'C:/Users/spard/Documents/GitHub/CarGame/CarGateGame01/CarGateGame/Saved/METROOL_FontF0B5696B49D63D7746BBDEB08839B959.tmp' to 'C:/Users/spard/Documents/GitHub/CarGame/CarGateGame01/CarGateGame/Content/FONT/METROOL_Font.uasset'
+[2022.09.29-00.25.51:506][612]AssetCheck: New page: Asset Save: METROOL_Font
+[2022.09.29-00.25.51:506][612]LogContentValidation: Display: Validating Font /Game/FONT/METROOL_Font.METROOL_Font
+[2022.09.29-00.25.57:084][259]LogSpawn: Warning: SpawnActor failed because we are running a ConstructionScript (Car_RunOverGame_C)
+[2022.09.29-00.25.58:539][368]LogSlate: Took 0.002424 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2022.09.29-00.25.58:564][368]LogSlate: Took 0.023118 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2022.09.29-00.26.02:662][825]LogSlate: Last resort fallback font was requested. Font: '', Character: '<unknown>'
+[2022.09.29-00.26.02:702][825]LogSlate: Took 0.038554 seconds to synchronously load lazily loaded font '../../../Engine/Content/SlateDebug/Fonts/LastResort.ttf' (5269K)
+[2022.09.29-00.26.02:755][825]LogActorComponent: RegisterComponentWithWorld: (/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.DESTROYED_StartLine1_C_CHILDACTOR_1564.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2022.09.29-00.26.04:259][976]LogActorComponent: RegisterComponentWithWorld: (/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.DESTROYED_StartLine1_C_CHILDACTOR_1568.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2022.09.29-00.27.00:615][532]LogActorComponent: RegisterComponentWithWorld: (/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.DESTROYED_StartLine1_C_CHILDACTOR_1572.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2022.09.29-00.27.03:771][752]LogActorComponent: RegisterComponentWithWorld: (/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.DESTROYED_StartLine1_C_CHILDACTOR_1576.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2022.09.29-00.27.07:987][218]LogActorComponent: RegisterComponentWithWorld: (/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.DESTROYED_StartLine1_C_CHILDACTOR_1580.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2022.09.29-00.27.09:960][417]LogActorComponent: RegisterComponentWithWorld: (/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.DESTROYED_StartLine1_C_CHILDACTOR_1584.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2022.09.29-00.27.11:948][626]LogActorComponent: RegisterComponentWithWorld: (/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.DESTROYED_StartLine1_C_CHILDACTOR_1588.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2022.09.29-00.27.15:312][979]LogActorComponent: RegisterComponentWithWorld: (/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.DESTROYED_StartLine1_C_CHILDACTOR_1592.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2022.09.29-00.27.17:596][222]LogActorComponent: RegisterComponentWithWorld: (/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.DESTROYED_StartLine1_C_CHILDACTOR_1596.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2022.09.29-00.27.20:500][524]LogAssetEditorSubsystem: Opening Asset editor for Font /Engine/EngineFonts/RobotoDistanceField.RobotoDistanceField
+[2022.09.29-00.28.16:382][ 33]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FONT/METROOL_Font" FILE="C:/Users/spard/Documents/GitHub/CarGame/CarGateGame01/CarGateGame/Content/FONT/METROOL_Font.uasset" SILENT=true
+[2022.09.29-00.28.16:397][ 33]LogSavePackage: Moving 'C:/Users/spard/Documents/GitHub/CarGame/CarGateGame01/CarGateGame/Saved/METROOL_FontD3634033430F67E5C33F53986B22F0AB.tmp' to 'C:/Users/spard/Documents/GitHub/CarGame/CarGateGame01/CarGateGame/Content/FONT/METROOL_Font.uasset'
+[2022.09.29-00.28.16:486][ 33]AssetCheck: New page: Asset Save: METROOL_Font
+[2022.09.29-00.28.16:486][ 33]LogContentValidation: Display: Validating Font /Game/FONT/METROOL_Font.METROOL_Font
+[2022.09.29-00.28.27:486][ 73]BlueprintLog: New page: Compile StartLine1
+[2022.09.29-00.28.27:609][ 73]LogUObjectHash: Compacting FUObjectHashTables data took   4.79ms
+[2022.09.29-00.28.27:642][ 73]LogActorComponent: RegisterComponentWithWorld: (/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.DESTROYED_StartLine1_C_CHILDACTOR_1598.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2022.09.29-00.28.27:666][ 73]LogSpawn: Warning: SpawnActor failed because we are running a ConstructionScript (Car_RunOverGame_C)
+[2022.09.29-00.28.27:695][ 73]LogActorComponent: RegisterComponentWithWorld: (/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.DESTROYED_StartLine1_C_CHILDACTOR_1602.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2022.09.29-00.28.27:718][ 73]LogSpawn: Warning: SpawnActor failed because we are running a ConstructionScript (Car_RunOverGame_C)
+[2022.09.29-00.28.28:182][103]LogSavePackage: Moving 'C:/Users/spard/Documents/GitHub/CarGame/CarGateGame01/CarGateGame/Saved/StartLine12D766AA844EB83FC41586E922E331367.tmp' to 'C:/Users/spard/Documents/GitHub/CarGame/CarGateGame01/CarGateGame/Content/_LevelsTracks_Gates/Gates/StartLine1.uasset'
+[2022.09.29-00.28.28:201][103]AssetCheck: New page: Asset Save: StartLine1
+[2022.09.29-00.28.28:201][103]LogContentValidation: Display: Validating Blueprint /Game/_LevelsTracks_Gates/Gates/StartLine1.StartLine1
+[2022.09.29-00.31.22:237][ 99]LogActorComponent: RegisterComponentWithWorld: (/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.DESTROYED_StartLine1_C_CHILDACTOR_1608.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2022.09.29-00.31.24:682][352]LogActorComponent: RegisterComponentWithWorld: (/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.DESTROYED_StartLine1_C_CHILDACTOR_1612.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2022.09.29-00.31.29:433][840]LogActorComponent: RegisterComponentWithWorld: (/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.DESTROYED_StartLine1_C_CHILDACTOR_1616.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2022.09.29-00.31.45:570][610]LogActorComponent: RegisterComponentWithWorld: (/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.DESTROYED_StartLine1_C_CHILDACTOR_1620.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2022.09.29-00.31.57:354][949]LogActorComponent: RegisterComponentWithWorld: (/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.DESTROYED_StartLine1_C_CHILDACTOR_1624.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2022.09.29-00.31.59:356][117]LogActorComponent: RegisterComponentWithWorld: (/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.DESTROYED_StartLine1_C_CHILDACTOR_1628.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2022.09.29-00.32.02:802][476]LogActorComponent: RegisterComponentWithWorld: (/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.DESTROYED_StartLine1_C_CHILDACTOR_1632.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2022.09.29-00.32.05:032][702]LogActorComponent: RegisterComponentWithWorld: (/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.DESTROYED_StartLine1_C_CHILDACTOR_1636.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2022.09.29-00.32.07:287][935]LogActorComponent: RegisterComponentWithWorld: (/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.DESTROYED_StartLine1_C_CHILDACTOR_1640.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2022.09.29-00.32.52:229][709]BlueprintLog: New page: Compile StartLine1
+[2022.09.29-00.32.52:396][709]LogUObjectHash: Compacting FUObjectHashTables data took   4.56ms
+[2022.09.29-00.32.52:431][709]LogActorComponent: RegisterComponentWithWorld: (/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.DESTROYED_StartLine1_C_CHILDACTOR_1642.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2022.09.29-00.32.52:454][709]LogSpawn: Warning: SpawnActor failed because we are running a ConstructionScript (Car_RunOverGame_C)
+[2022.09.29-00.32.52:483][709]LogActorComponent: RegisterComponentWithWorld: (/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.DESTROYED_StartLine1_C_CHILDACTOR_1646.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2022.09.29-00.32.52:503][709]LogSpawn: Warning: SpawnActor failed because we are running a ConstructionScript (Car_RunOverGame_C)
+[2022.09.29-00.32.52:983][748]LogSavePackage: Moving 'C:/Users/spard/Documents/GitHub/CarGame/CarGateGame01/CarGateGame/Saved/StartLine144C57BB4483F23AA027F4280E0E0A19C.tmp' to 'C:/Users/spard/Documents/GitHub/CarGame/CarGateGame01/CarGateGame/Content/_LevelsTracks_Gates/Gates/StartLine1.uasset'
+[2022.09.29-00.32.52:999][748]AssetCheck: New page: Asset Save: StartLine1
+[2022.09.29-00.32.53:000][748]LogContentValidation: Display: Validating Blueprint /Game/_LevelsTracks_Gates/Gates/StartLine1.StartLine1
+[2022.09.29-00.32.58:278][333]LogEditorViewport: Clicking on Actor (LMB): Track01_C (Track01)
+[2022.09.29-00.33.12:345][329]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/_LevelsTracks_Gates/Gates/Start_Font.Start_Font
+[2022.09.29-00.33.27:712][996]LogSlate: FontCache flush requested. Reason: Font Atlases Full; 2/1 Pages; frames since last flush: 62041
+[2022.09.29-00.33.27:713][996]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.29-00.33.27:723][997]LogSlate: Took 0.000208 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2022.09.29-00.33.27:729][997]LogSlate: Took 0.000204 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2022.09.29-00.33.27:729][997]LogSlate: Took 0.000110 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2022.09.29-00.33.27:730][997]LogSlate: Took 0.000107 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2022.09.29-00.33.27:731][997]LogSlate: Took 0.000160 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2022.09.29-00.33.39:482][363]LogSlate: Took 0.003909 seconds to synchronously load lazily loaded font '../../../Engine/Content/SlateDebug/Fonts/LastResort.ttf' (5269K)
+[2022.09.29-00.33.55:417][175]LogSlate: Took 0.000163 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2022.09.29-00.34.01:130][615]LogAssetEditorSubsystem: Opening Asset editor for FontFace /Game/FONT/METROOL.METROOL
+[2022.09.29-00.34.03:864][882]LogAssetEditorSubsystem: Opening Asset editor for Font /Game/FONT/METROOL_Font.METROOL_Font
+[2022.09.29-00.34.07:169][ 93]LogSlate: Window 'Really change the font cache type?' being destroyed
+[2022.09.29-00.34.07:177][ 93]Message dialog closed, result: Yes, title: Really change the font cache type?, text: Changing the cache type will cause this font to be reinitialized (discarding any existing data).
+
+Are you sure you want to proceed?
+[2022.09.29-00.34.07:177][ 93]LogFactory: FactoryCreateNew: Font with FontFactory (1 0 )
+[2022.09.29-00.34.08:451][224]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FONT/METROOL_Font" FILE="C:/Users/spard/Documents/GitHub/CarGame/CarGateGame01/CarGateGame/Content/FONT/METROOL_Font.uasset" SILENT=true
+[2022.09.29-00.34.08:465][224]LogSavePackage: Moving 'C:/Users/spard/Documents/GitHub/CarGame/CarGateGame01/CarGateGame/Saved/METROOL_FontBA104CF142788F8E2C8A40872E852395.tmp' to 'C:/Users/spard/Documents/GitHub/CarGame/CarGateGame01/CarGateGame/Content/FONT/METROOL_Font.uasset'
+[2022.09.29-00.34.08:485][224]AssetCheck: New page: Asset Save: METROOL_Font
+[2022.09.29-00.34.08:485][224]LogContentValidation: Display: Validating Font /Game/FONT/METROOL_Font.METROOL_Font
+[2022.09.29-00.34.33:784][995]LogAssetEditorSubsystem: Opening Asset editor for Font /Game/FONT/KITCHENPOLICE_Font.KITCHENPOLICE_Font
+[2022.09.29-00.34.38:050][216]LogSlate: Window 'Really change the font cache type?' being destroyed
+[2022.09.29-00.34.38:055][216]Message dialog closed, result: Yes, title: Really change the font cache type?, text: Changing the cache type will cause this font to be reinitialized (discarding any existing data).
+
+Are you sure you want to proceed?
+[2022.09.29-00.34.38:056][216]LogFactory: FactoryCreateNew: Font with FontFactory (1 0 )
+[2022.09.29-00.34.39:047][317]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FONT/KITCHENPOLICE_Font" FILE="C:/Users/spard/Documents/GitHub/CarGame/CarGateGame01/CarGateGame/Content/FONT/KITCHENPOLICE_Font.uasset" SILENT=true
+[2022.09.29-00.34.39:058][317]LogSavePackage: Moving 'C:/Users/spard/Documents/GitHub/CarGame/CarGateGame01/CarGateGame/Saved/KITCHENPOLICE_FontBCAB4D224A9451C3F63683827E4ABEC2.tmp' to 'C:/Users/spard/Documents/GitHub/CarGame/CarGateGame01/CarGateGame/Content/FONT/KITCHENPOLICE_Font.uasset'
+[2022.09.29-00.34.39:083][317]AssetCheck: New page: Asset Save: KITCHENPOLICE_Font
+[2022.09.29-00.34.39:083][317]LogContentValidation: Display: Validating Font /Game/FONT/KITCHENPOLICE_Font.KITCHENPOLICE_Font
+[2022.09.29-00.35.36:677][495]LogUObjectHash: Compacting FUObjectHashTables data took   7.15ms
+[2022.09.29-00.35.36:846][495]LogSavePackage: Moving 'C:/Users/spard/Documents/GitHub/CarGame/CarGateGame01/CarGateGame/Saved/VehicleExampleMap_Auto3AF6CEFBF4636350A7C8989B39BE6ABF5.tmp' to 'C:/Users/spard/Documents/GitHub/CarGame/CarGateGame01/CarGateGame/Saved/Autosaves/Game/VehicleBP/Maps/VehicleExampleMap_Auto3.umap'
+[2022.09.29-00.35.36:848][495]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/VehicleBP/Maps/VehicleExampleMap' took 0.252
+[2022.09.29-00.35.36:848][495]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.252
+[2022.09.29-00.35.36:849][495]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/FONT/KITCHENPOLICE_Font] ([1] browsable assets)...
+[2022.09.29-00.35.36:849][495]OBJ SavePackage: Finished generating thumbnails for package [/Game/FONT/KITCHENPOLICE_Font]
+[2022.09.29-00.35.36:859][495]LogSavePackage: Moving 'C:/Users/spard/Documents/GitHub/CarGame/CarGateGame01/CarGateGame/Saved/KITCHENPOLICE_Font_Auto32903691441BD9896DC79E2BA08939C57.tmp' to 'C:/Users/spard/Documents/GitHub/CarGame/CarGateGame01/CarGateGame/Saved/Autosaves/Game/FONT/KITCHENPOLICE_Font_Auto3.uasset'
+[2022.09.29-00.35.36:861][495]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/_LevelsTracks_Gates/Gates/Start_Font] ([1] browsable assets)...
+[2022.09.29-00.35.36:861][495]OBJ SavePackage: Finished generating thumbnails for package [/Game/_LevelsTracks_Gates/Gates/Start_Font]
+[2022.09.29-00.35.36:902][495]LogSavePackage: Moving 'C:/Users/spard/Documents/GitHub/CarGame/CarGateGame01/CarGateGame/Saved/Start_Font_Auto3B14DD0EE493A288040940B81DA898DE0.tmp' to 'C:/Users/spard/Documents/GitHub/CarGame/CarGateGame01/CarGateGame/Saved/Autosaves/Game/_LevelsTracks_Gates/Gates/Start_Font_Auto3.uasset'
+[2022.09.29-00.35.36:904][495]LogFileHelpers: Auto-saving content packages took 0.054
+[2022.09.29-00.35.58:659][482]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\USERS\SPARD\APPDATA\LOCAL\MICROSOFT\WINDOWS\FONTS\KITCHENPOLICE.TTF)
+[2022.09.29-00.35.58:659][482]LogSlate: FontCache flush requested. Reason: UFontFace::PostEditChangeProperty
+[2022.09.29-00.35.58:664][482]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\USERS\SPARD\APPDATA\LOCAL\MICROSOFT\WINDOWS\FONTS\METROOL.TTF)
+[2022.09.29-00.35.58:744][482]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.29-00.35.58:994][483]LogSlate: Took 0.000307 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2022.09.29-00.35.59:057][483]LogSlate: Took 0.000214 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2022.09.29-00.35.59:062][483]LogSlate: Took 0.000158 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2022.09.29-00.35.59:064][483]LogSlate: Took 0.000121 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2022.09.29-00.35.59:071][483]LogSlate: Took 0.000233 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2022.09.29-00.35.59:325][484]LogSlate: Took 0.002352 seconds to synchronously load lazily loaded font '../../../Engine/Content/SlateDebug/Fonts/LastResort.ttf' (5269K)
+[2022.09.29-00.36.04:221][741]LogSlate: Took 0.000288 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2022.09.29-00.36.14:551][882]BlueprintLog: New page: Compile Start_Font
+[2022.09.29-00.36.14:604][882]LogUObjectHash: Compacting FUObjectHashTables data took   5.10ms
+[2022.09.29-00.36.15:335][950]LogSavePackage: Moving 'C:/Users/spard/Documents/GitHub/CarGame/CarGateGame01/CarGateGame/Saved/Start_Font613111004161B255DDFFB0A28D049296.tmp' to 'C:/Users/spard/Documents/GitHub/CarGame/CarGateGame01/CarGateGame/Content/_LevelsTracks_Gates/Gates/Start_Font.uasset'
+[2022.09.29-00.36.15:358][950]AssetCheck: New page: Asset Save: Start_Font
+[2022.09.29-00.36.15:358][950]LogContentValidation: Display: Validating WidgetBlueprint /Game/_LevelsTracks_Gates/Gates/Start_Font.Start_Font
+[2022.09.29-00.36.17:318][173]LogWorld: UWorld::CleanupWorld for World_9, bSessionEnded=true, bCleanupResources=true
+[2022.09.29-00.36.17:318][173]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.29-00.36.17:343][173]LogWorld: UWorld::CleanupWorld for World_8, bSessionEnded=true, bCleanupResources=true
+[2022.09.29-00.36.17:343][173]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.29-00.36.17:424][173]LogSlate: Took 0.000224 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2022.09.29-00.36.19:194][357]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FONT/KITCHENPOLICE_Font" FILE="C:/Users/spard/Documents/GitHub/CarGame/CarGateGame01/CarGateGame/Content/FONT/KITCHENPOLICE_Font.uasset" SILENT=true
+[2022.09.29-00.36.19:203][357]LogSavePackage: Moving 'C:/Users/spard/Documents/GitHub/CarGame/CarGateGame01/CarGateGame/Saved/KITCHENPOLICE_Font0AAE24E84CB102195067ACABF2103538.tmp' to 'C:/Users/spard/Documents/GitHub/CarGame/CarGateGame01/CarGateGame/Content/FONT/KITCHENPOLICE_Font.uasset'
+[2022.09.29-00.36.19:221][357]AssetCheck: New page: Asset Save: KITCHENPOLICE_Font
+[2022.09.29-00.36.19:221][357]LogContentValidation: Display: Validating Font /Game/FONT/KITCHENPOLICE_Font.KITCHENPOLICE_Font
+[2022.09.29-00.36.22:562][695]LogUObjectHash: Compacting FUObjectHashTables data took   4.53ms
+[2022.09.29-00.36.22:652][695]LogSavePackage: Moving 'C:/Users/spard/Documents/GitHub/CarGame/CarGateGame01/CarGateGame/Saved/VehicleExampleMap4B4295F74B5289015DC6739DA6B7F857.tmp' to 'C:/Users/spard/Documents/GitHub/CarGame/CarGateGame01/CarGateGame/Content/VehicleBP/Maps/VehicleExampleMap.umap'
+[2022.09.29-00.36.23:760][695]LogSavePackage: Moving 'C:/Users/spard/Documents/GitHub/CarGame/CarGateGame01/CarGateGame/Saved/VehicleExampleMap_BuiltData093937EF4E4C537F2DA686AD8E0F756F.tmp' to 'C:/Users/spard/Documents/GitHub/CarGame/CarGateGame01/CarGateGame/Content/VehicleBP/Maps/VehicleExampleMap_BuiltData.uasset'
+[2022.09.29-00.36.23:940][695]AssetCheck: New page: Asset Save: multiple assets
+[2022.09.29-00.36.23:940][695]LogContentValidation: Display: Validating World /Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap
+[2022.09.29-00.36.23:940][695]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/VehicleBP/Maps/VehicleExampleMap_BuiltData.VehicleExampleMap_BuiltData
+[2022.09.29-00.36.26:022][863]LogUObjectHash: Compacting FUObjectHashTables data took   4.40ms
+[2022.09.29-00.36.26:130][863]LogSavePackage: Moving 'C:/Users/spard/Documents/GitHub/CarGame/CarGateGame01/CarGateGame/Saved/VehicleExampleMap190331FA49B98531E77DEE9783F978D2.tmp' to 'C:/Users/spard/Documents/GitHub/CarGame/CarGateGame01/CarGateGame/Content/VehicleBP/Maps/VehicleExampleMap.umap'
+[2022.09.29-00.36.26:469][863]LogSavePackage: Moving 'C:/Users/spard/Documents/GitHub/CarGame/CarGateGame01/CarGateGame/Saved/VehicleExampleMap_BuiltDataA0B971164A5E4734B46F97AF85F62A14.tmp' to 'C:/Users/spard/Documents/GitHub/CarGame/CarGateGame01/CarGateGame/Content/VehicleBP/Maps/VehicleExampleMap_BuiltData.uasset'
+[2022.09.29-00.36.26:489][863]AssetCheck: New page: Asset Save: multiple assets
+[2022.09.29-00.36.26:489][863]LogContentValidation: Display: Validating World /Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap
+[2022.09.29-00.36.26:489][863]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/VehicleBP/Maps/VehicleExampleMap_BuiltData.VehicleExampleMap_BuiltData
+[2022.09.29-00.36.29:567][113]LogUObjectHash: Compacting FUObjectHashTables data took   2.61ms
+[2022.09.29-00.36.30:992][113]LogSlate: Window 'Delete Assets' being destroyed
+[2022.09.29-00.36.31:106][113]LogUObjectHash: Compacting FUObjectHashTables data took   2.92ms
+[2022.09.29-00.36.31:110][113]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.29-00.36.31:111][113]LogSlate: Took 0.000198 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2022.09.29-00.36.31:148][113]LogUObjectHash: Compacting FUObjectHashTables data took   2.27ms
+[2022.09.29-00.36.31:177][113]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
+[2022.09.29-00.36.31:180][113]LogSlate: Took 0.000142 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2022.09.29-00.36.31:188][113]LogSlate: Took 0.003018 seconds to synchronously load lazily loaded font '../../../Engine/Content/SlateDebug/Fonts/LastResort.ttf' (5269K)
+[2022.09.29-00.36.31:206][113]LogSlate: Took 0.000200 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2022.09.29-00.36.31:211][113]LogSlate: Took 0.000180 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2022.09.29-00.36.31:214][113]LogSlate: Took 0.000125 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2022.09.29-00.36.33:704][202]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\USERS\SPARD\APPDATA\LOCAL\MICROSOFT\WINDOWS\FONTS\METROOL.TTF)
+[2022.09.29-00.36.33:704][202]LogSlate: FontCache flush requested. Reason: UFontFace::PostEditChangeProperty
+[2022.09.29-00.36.33:758][202]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.29-00.36.33:761][202]LogSlate: Took 0.000202 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2022.09.29-00.36.33:822][202]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\USERS\SPARD\APPDATA\LOCAL\MICROSOFT\WINDOWS\FONTS\KITCHENPOLICE.TTF)
+[2022.09.29-00.36.33:872][202]LogSlate: Took 0.000169 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2022.09.29-00.36.35:939][202]LogSlate: Window 'Font Face Import Options' being destroyed
+[2022.09.29-00.36.35:943][202]Message dialog closed, result: Yes, title: Font Face Import Options, text: Would you like to create a new Font asset using the imported Font Face as its default font?
+[2022.09.29-00.36.35:945][202]LogSlate: FontCache flush requested. Reason: UFontFace::PostEditChangeProperty
+[2022.09.29-00.36.35:948][202]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.29-00.36.35:952][202]LogSlate: Took 0.000166 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2022.09.29-00.36.35:970][202]LogSlate: Took 0.000518 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2022.09.29-00.36.35:972][202]LogSlate: Took 0.000289 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2022.09.29-00.36.35:981][202]LogSlate: Took 0.000178 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2022.09.29-00.36.35:991][202]LogSlate: Took 0.000109 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2022.09.29-00.36.36:529][246]LogSlate: Took 0.004072 seconds to synchronously load lazily loaded font '../../../Engine/Content/SlateDebug/Fonts/LastResort.ttf' (5269K)
+[2022.09.29-00.36.37:691][336]LogSlate: Took 0.000222 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2022.09.29-00.36.42:627][874]LogActorComponent: RegisterComponentWithWorld: (/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.DESTROYED_StartLine1_C_CHILDACTOR_1652.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2022.09.29-00.36.44:720][104]BlueprintLog: New page: Compile StartLine1
+[2022.09.29-00.36.44:817][104]LogUObjectHash: Compacting FUObjectHashTables data took   3.27ms
+[2022.09.29-00.36.44:850][104]LogActorComponent: RegisterComponentWithWorld: (/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.DESTROYED_StartLine1_C_CHILDACTOR_1654.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2022.09.29-00.36.44:875][104]LogSpawn: Warning: SpawnActor failed because we are running a ConstructionScript (Car_RunOverGame_C)
+[2022.09.29-00.36.44:906][104]LogActorComponent: RegisterComponentWithWorld: (/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.DESTROYED_StartLine1_C_CHILDACTOR_1658.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2022.09.29-00.36.44:926][104]LogSpawn: Warning: SpawnActor failed because we are running a ConstructionScript (Car_RunOverGame_C)
+[2022.09.29-00.36.56:813][149]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/_LevelsTracks_Gates/Gates/Start_Font.Start_Font
+[2022.09.29-00.36.57:290][149]LogSlate: Took 0.000272 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2022.09.29-00.37.23:674][262]BlueprintLog: New page: Compile Start_Font
+[2022.09.29-00.37.23:721][262]LogUObjectHash: Compacting FUObjectHashTables data took   4.44ms
+[2022.09.29-00.37.24:193][309]LogSavePackage: Moving 'C:/Users/spard/Documents/GitHub/CarGame/CarGateGame01/CarGateGame/Saved/Start_FontA96519C94261331F4E4B1187BC9F0872.tmp' to 'C:/Users/spard/Documents/GitHub/CarGame/CarGateGame01/CarGateGame/Content/_LevelsTracks_Gates/Gates/Start_Font.uasset'
+[2022.09.29-00.37.24:296][309]AssetCheck: New page: Asset Save: Start_Font
+[2022.09.29-00.37.24:296][309]LogContentValidation: Display: Validating WidgetBlueprint /Game/_LevelsTracks_Gates/Gates/Start_Font.Start_Font
+[2022.09.29-00.37.27:062][582]LogSlate: Took 0.000233 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2022.09.29-00.37.32:668][208]LogActorComponent: RegisterComponentWithWorld: (/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.DESTROYED_StartLine1_C_CHILDACTOR_1662.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2022.09.29-00.37.36:310][562]LogActorComponent: RegisterComponentWithWorld: (/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.DESTROYED_StartLine1_C_CHILDACTOR_1664.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2022.09.29-00.37.49:300][903]LogActorComponent: RegisterComponentWithWorld: (/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.DESTROYED_StartLine1_C_CHILDACTOR_1668.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2022.09.29-00.38.02:740][391]BlueprintLog: New page: Compile Start_Font
+[2022.09.29-00.38.02:852][391]LogUObjectHash: Compacting FUObjectHashTables data took   5.02ms
+[2022.09.29-00.38.06:428][760]LogActorComponent: RegisterComponentWithWorld: (/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.DESTROYED_StartLine1_C_CHILDACTOR_1672.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2022.09.29-00.38.07:687][881]LogActorComponent: RegisterComponentWithWorld: (/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.DESTROYED_StartLine1_C_CHILDACTOR_1676.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2022.09.29-00.38.09:118][ 22]LogActorComponent: RegisterComponentWithWorld: (/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.DESTROYED_StartLine1_C_CHILDACTOR_1680.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2022.09.29-00.38.10:655][175]LogActorComponent: RegisterComponentWithWorld: (/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.DESTROYED_StartLine1_C_CHILDACTOR_1684.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2022.09.29-00.38.12:978][409]LogActorComponent: RegisterComponentWithWorld: (/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.DESTROYED_StartLine1_C_CHILDACTOR_1688.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2022.09.29-00.38.14:839][591]LogActorComponent: RegisterComponentWithWorld: (/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.DESTROYED_StartLine1_C_CHILDACTOR_1692.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2022.09.29-00.38.25:786][736]BlueprintLog: New page: Compile StartLine1
+[2022.09.29-00.38.25:916][736]LogUObjectHash: Compacting FUObjectHashTables data took   4.31ms
+[2022.09.29-00.38.25:947][736]LogActorComponent: RegisterComponentWithWorld: (/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.DESTROYED_StartLine1_C_CHILDACTOR_1698.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2022.09.29-00.38.25:971][736]LogSpawn: Warning: SpawnActor failed because we are running a ConstructionScript (Car_RunOverGame_C)
+[2022.09.29-00.38.26:000][736]LogActorComponent: RegisterComponentWithWorld: (/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.DESTROYED_StartLine1_C_CHILDACTOR_1702.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2022.09.29-00.38.26:022][736]LogSpawn: Warning: SpawnActor failed because we are running a ConstructionScript (Car_RunOverGame_C)
+[2022.09.29-00.38.26:362][754]LogSavePackage: Moving 'C:/Users/spard/Documents/GitHub/CarGame/CarGateGame01/CarGateGame/Saved/StartLine18E3F0AF648D677F02A2B2CA3DEE38DB0.tmp' to 'C:/Users/spard/Documents/GitHub/CarGame/CarGateGame01/CarGateGame/Content/_LevelsTracks_Gates/Gates/StartLine1.uasset'
+[2022.09.29-00.38.26:398][754]AssetCheck: New page: Asset Save: StartLine1
+[2022.09.29-00.38.26:398][754]LogContentValidation: Display: Validating Blueprint /Game/_LevelsTracks_Gates/Gates/StartLine1.StartLine1
+[2022.09.29-00.38.33:911][362]LogActorComponent: RegisterComponentWithWorld: (/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.DESTROYED_StartLine1_C_CHILDACTOR_1708.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2022.09.29-00.38.35:628][519]LogActorComponent: RegisterComponentWithWorld: (/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.DESTROYED_StartLine1_C_CHILDACTOR_1712.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2022.09.29-00.38.41:597][177]BlueprintLog: New page: Compile Start_Font
+[2022.09.29-00.38.41:993][177]LogUObjectHash: Compacting FUObjectHashTables data took   5.46ms
+[2022.09.29-00.38.43:813][369]BlueprintLog: New page: Compile StartLine1
+[2022.09.29-00.38.43:925][369]LogUObjectHash: Compacting FUObjectHashTables data took   4.97ms
+[2022.09.29-00.38.43:951][369]LogActorComponent: RegisterComponentWithWorld: (/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.DESTROYED_StartLine1_C_CHILDACTOR_1714.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
